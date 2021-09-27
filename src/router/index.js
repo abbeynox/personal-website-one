@@ -38,6 +38,18 @@ const routes = [
     component: () => import('../views/LinksPage.vue')
   },
   {
+    path: '/github',
+    beforeEnter() {location.href = 'http://github.com/kaiseryao'}
+  },
+  {
+    path: '/instagram',
+    beforeEnter() {location.href = 'http://www.instagram.com/yao.earth'}
+  },
+  {
+    path: '/twitter',
+    beforeEnter() {location.href = 'http://github.com/YaoEarth'}
+  },
+  {
     path: '*', // Nimmt jedes andere Verzeichnis, welches nicht definiert ist. 
     name: '404',
     component: () => import ('../views/404Page.vue')

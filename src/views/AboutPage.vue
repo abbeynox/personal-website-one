@@ -1,6 +1,6 @@
 <template>
     <div>
-        <AboutHeader />
+        <Header title="Über mich" description="Ich stelle mich vor..."></Header>
         <Vorstellung />
         <Skills />
         
@@ -8,14 +8,14 @@
 </template>
 
 <script>
-import AboutHeader from "../components/about/AboutHeader"
+import Header from "../components/Header"
 import Vorstellung from "../components/about/Vorstellung"
 import Skills from "../components/about/Skills"
 export default {
     name: 'About',
     title: 'Über mich',
     components: {
-        AboutHeader,
+        Header,
         Vorstellung,
         Skills
     }

@@ -1,11 +1,9 @@
 <template>
 <section class="text-gray-400 bg-black body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <BlogHeader />
+    <Header title="Blog" description="Eine Sammlung von Blogs die ich verfasst habe."></Header>
     <div class="flex flex-wrap -m-4">
         <BlogCard />
     </div>
-  </div>
 </section>
 </template>
 
@@ -13,14 +11,14 @@
 <script type="text/javascript">
 
     import BlogCard from '../components/blog/BlogCard';
-    import BlogHeader from '../components/blog/BlogHeader';
+    import Header from '../components/Header';
 
     export default {
         name: 'BlogPage',
         title: 'Blog',
         components: {
+            Header,
             BlogCard,
-            BlogHeader
             }
         }
 </script>

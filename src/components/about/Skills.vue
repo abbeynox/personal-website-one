@@ -11,17 +11,20 @@
           Ich benutze vielfältige Tools für meine Projekte, hier habe ich einige
           davon aufgelistet.
         </p>
+
+        <br>
+
+        <div v-for="skill in skills" :key="skill.id" class="flex flex-wrap">
+          <SkillCard :name="skill.name" :icon="skill.icon"></SkillCard>
+        </div>    
+
+        <router-link
+          class="flex px-8 py-2 mx-auto mt-16 text-lg text-white bg-purple-500 border-0 rounded focus:outline-none hover:bg-purple-600" to="/github" tag="button">
+          Mehr Statistken auf Github
+        </router-link>
       </div>
 
-      <div v-for="skill in skills" :key="skill.id" class="flex flex-wrap">
-        <SkillCard :name="skill.name" :icon="skill.icon"></SkillCard>
-      </div>    
 
-      <button
-        class="flex px-8 py-2 mx-auto mt-16 text-lg text-white bg-purple-500 border-0 rounded focus:outline-none hover:bg-purple-600"
-      >
-        Mehr Statistken auf Github
-      </button>
     </div>
   </section>
 </template>

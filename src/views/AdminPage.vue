@@ -1,24 +1,22 @@
 <template>
     <div>
         <section class="text-gray-400 bg-black body-font">
-            <div class="container px-5 py-24 mx-auto">
-            <AdminHeader />
+            <Header title="Admin" description="Zugang nur für Administratoren"></Header>
             <ProjektForm />
             <SkillForm />
-            </div>
         </section>
     </div>
 </template>
 
 <script>
-    import AdminHeader from '../components/admin/AdminHeader';
+    import Header from '../components/Header';
     import ProjektForm from '../components/admin/ProjektForm';
     import SkillForm from '../components/admin/SkillForm';
     export default {
         name: 'AdminPage', 
         title: 'Admin',
         components: {
-            AdminHeader,
+            Header,
             ProjektForm,
             SkillForm
         }
