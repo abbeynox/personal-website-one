@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="mr-10">
+	<div class="grid px-20 mx-auto space-y-10 place-items-center sm:my-auto">
+    <div class="flex items-center justify-center space-x-3">
       <div v-for="social in socials" :key="social.id">
         <SoMediaIcon
           :tooltip="social.tooltip"
