@@ -1,17 +1,18 @@
 <template>
     <div>
         <IndexHero></IndexHero>
-        <Features></Features>
         <SocialMedia></SocialMedia>
+        <Features></Features>
     </div>
 </template>
 
 
 <script type="text/javascript">
 
-    import IndexHero from '../components/index/IndexHero';
-    import Features from '../components/index/Features';
-    import SocialMedia from '../components/index/SocialMedia';
+    import IndexHero from '../components/IndexHero';
+    import SocialMedia from '../components/SocialMedia';
+    import Features from '../components/Features';
+    
 
     export default {
         name: 'Home',

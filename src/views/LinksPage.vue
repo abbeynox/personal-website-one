@@ -1,43 +1,17 @@
 <template>
     <div>
-            <LinksHeader />
+            <div class="container content-center px-5 pt-24 pb-1 mx-auto">
+                
+                <div class="flex flex-col content-center w-full mb-20 text-center">
+                    <img class="mx-auto w-40 h-40 text-white p-0.5 bg-purple-500 rounded-full m-5" alt="hero" src="../assets/YaoDev.jpg">
+                    <h1 class="mb-4 text-6xl font-bold text-white sm:text-6xl title-font">Yao Kaiser</h1>
+                    <p class="mx-auto mt-2 text-lg leading-relaxed text-gray-400 lg:w-2/3">Ich bin Yao - 🖥Software Entwickler, 💜Politisch engagiert und ein 🎭Mensch.</p>
+                </div>   
+            </div>
 
-            <div class="container px-5 py-24 mx-auto">
-
-                <div class="flex flex-wrap -m-1">
-
-                    <div class="p-2 w-full">
-                        <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/84x84">
-                        <div class="flex-grow">
-                            <h2 class="text-white title-font font-medium">Link 1</h2>
-                            <p class="text-gray-600">url</p>
-                        </div>
-                        </div>
-                    </div>
-
-
-                    <div class="p-2 w-full">
-                        <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94">
-                        <div class="flex-grow">
-                            <h2 class="text-white title-font font-medium">Link 2</h2>
-                            <p class="text-gray-600">url</p>
-                        </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="p-2 w-full">
-                        <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                        <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/104x94">
-                        <div class="flex-grow">
-                            <h2 class="text-white title-font font-medium">Link 3</h2>
-                            <p class="text-gray-600">url</p>
-                        </div>
-                        </div>
-                    </div>
+            <div class="container mx-auto">
+                <div v-for="link in links" :key="link.id" class="flex flex-wrap m-2">
+                    <LinkCard :name="link.name" :url="link.url" :icon="link.icon" :toColor="link.toColor" :fromColor="link.fromColor" :viaColor="link.viaColor"></LinkCard>
                 </div>
             </div>
 
@@ -46,13 +20,19 @@
 
 <script type="text/javascript">
 
-    import LinksHeader from '../components/links/LinksHeader';
+    import LinkCard from '../components/cards/LinkCard';
+    import links from '../data/links.js';
 
     export default {
         name: 'LinksPage',
-        title: 'Links',
+        title: 'Links', 
+        data: function() {
+            return {
+                links: links
+            };
+        },
         components: {
-            LinksHeader
+            LinkCard
             }
         }
 </script>

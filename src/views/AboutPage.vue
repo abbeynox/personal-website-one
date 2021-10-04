@@ -9,8 +9,8 @@
 
 <script>
 import Header from "../components/Header"
-import Vorstellung from "../components/about/Vorstellung"
-import Skills from "../components/about/Skills"
+import Vorstellung from "../components/Vorstellung"
+import Skills from "../components/Skills"
 export default {
     name: 'About',
     title: 'Über mich',

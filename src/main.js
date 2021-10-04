@@ -9,7 +9,7 @@ import './assets/tailwind.css';
 import VueCarousel from 'vue-carousel';
 import VueScrollReveal from 'vue-scroll-reveal';
 
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 
 
