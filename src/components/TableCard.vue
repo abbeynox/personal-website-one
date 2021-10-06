@@ -1,41 +1,42 @@
 <template>
-<tr class="bg-gray-800">
-    
-    <td class="p-3">
-      <div class="flex align-items-center">
-        <div class="ml-3">
-          <div class="">{{ startTime }}</div>
-          <div class="text-gray-500">{{ endTime }}</div>
+  <tr class="bg-gray-800">
+      
+      <td class="p-3">
+        <div class="flex align-items-center">
+          <div class="ml-3">
+            <div class="">{{ startTime }}</div>
+            <div class="text-gray-500">{{ endTime }}</div>
+          </div>
         </div>
-      </div>
-    </td>
+      </td>
 
-    <td class="p-3">
-      <div class="flex align-items-center">
-        <div class="ml-3">
-          <div class="">{{ name }}</div>
-          <div class="text-gray-500">{{ subName }}</div>
+      <td class="p-3">
+        <div class="flex flex-initial align-items-center">
+          <div class="md:mr-12">
+            <div class="">{{ name }}</div>
+            <div class="text-gray-500">{{ subName }}</div>
+          </div>
         </div>
-      </div>
-    </td>
+      </td>
 
-    <td class="p-3">
-      <span  v-show="room != undefined" class="px-2 text-green-800 bg-green-100 rounded-full">{{
-        room
-      }}</span>
-    </td>
+      <td class="p-3">
+        <span  v-show="room != undefined" class="px-2 text-green-800 bg-green-100 rounded-full">{{
+          room
+        }}</span>
+      </td>
 
-    <td class="p-3 font-bold">
-      {{ teacher }}
-    </td>
+      <td class="p-3 font-bold">
+        {{ teacher }}
+      </td>
 
-    <td class="p-3 ">
-      <a v-show="test == true" href="#" class="mx-2 text-gray-400 hover:text-gray-100">
-        <i class="fas fa-pen"></i>
-      </a>
-    </td>
+      <td class="p-3 ">
+        <a v-show="test == true" class="mx-2 text-gray-400 hover:text-gray-100">
+          <i class="fas fa-pen"></i>
+        </a>
+      </td>
 
-</tr>
+  </tr>
+
 </template>
 
 <script>
@@ -70,7 +71,7 @@ export default {
       type: Boolean,
       required: true,
       default: false,
-    }
+    },
   }
 };
 </script>

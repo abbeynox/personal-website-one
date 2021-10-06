@@ -38,6 +38,7 @@
                     :room="subject.room"
                     :teacher="subject.teacher"
                     :test="subject.test"
+                    :showModal ="subject.showModal"
                   ></TableCard>
                 </tbody>
               </table>
@@ -46,10 +47,13 @@
         </div>
       </div>
     </div>
+
   </div>
 </template>
 
 <script>
+
+
 import Header from "../../components/Header";
 import subjects1 from "../../data/subjects.js";
 import subjects2 from "../../data/subjects2.js";

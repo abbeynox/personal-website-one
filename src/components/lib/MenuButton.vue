@@ -99,4 +99,10 @@ export default {
   visibility: visible;
   
 }
+
+.dropdown:click{
+  opacity: 1;
+  transform: translate(0) scale(1);
+  visibility: hidden !important;
+}
 </style>
