@@ -52,6 +52,17 @@
 </template>
 
 <script>
+import dayjs from 'dayjs'
+var utc = require('dayjs/plugin/utc')
+var timezone = require('dayjs/plugin/timezone') // dependent on utc plugin
+
+var customParseFormat = require('dayjs/plugin/customParseFormat')
+dayjs.extend(customParseFormat)
+
+dayjs.extend(utc)
+dayjs.extend(timezone)
+
+let now = dayjs().tz("Europe/Berlin")
 
 
 import Header from "../../components/Header";
@@ -88,7 +99,14 @@ export default {
       };
   },
   created() { // On load Funktion
-    this.setDay("Donnerstag")
+    this.setDay("Donnerstag");
+    this.now = now;
+    let today = now.format("dddd");
+    let time = now.format("HH:mm")
+    console.log(today);
+    console.log(time);
+
+    
   },
   components: {
     Header,
