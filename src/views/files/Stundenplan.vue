@@ -102,9 +102,6 @@ export default {
     
     this.now = now;
     let today = now.format("ddd");
-    let time = now.format("HH:mm");
-    console.log(today);
-    console.log(time);
     if(today == "Thu"){
       this.setDay("Donnerstag");
     } else if(today == "Fri"){

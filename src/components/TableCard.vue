@@ -1,5 +1,5 @@
 <template>
-  <tr class="bg-gray-800">
+  <tr :class="(nowLesson)?'bg-gray-600':'bg-gray-800'"> <!-- ehem bg-gray-800-->
       
       <td class="p-3">
         <div class="flex align-items-center">
@@ -40,6 +40,21 @@
 </template>
 
 <script>
+import dayjs from 'dayjs'
+var utc = require('dayjs/plugin/utc')
+var timezone = require('dayjs/plugin/timezone') // dependent on utc plugin
+var customParseFormat = require('dayjs/plugin/customParseFormat')
+var isBetween = require('dayjs/plugin/isBetween')
+
+dayjs.extend(isBetween)
+dayjs.extend(customParseFormat)
+dayjs.extend(utc)
+dayjs.extend(timezone)
+
+let now = dayjs().tz("Europe/Berlin")
+let nowLesson;
+
+
 export default {
 
   props: {
@@ -72,7 +87,18 @@ export default {
       required: true,
       default: false,
     },
-  }
+  },
+  created() { // On load Funktion
+    this.now = now.format("H:mm");
+    this.nowLesson = nowLesson;
+
+    if(now.isBetween(this.startTime, this.endTime)){
+      nowLesson = true
+      console.log(nowLesson)
+    } else{
+      nowLesson = false
+    }
+  },
 };
 </script>
 
