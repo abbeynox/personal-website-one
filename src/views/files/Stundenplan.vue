@@ -99,12 +99,19 @@ export default {
       };
   },
   created() { // On load Funktion
-    this.setDay("Donnerstag");
+    
     this.now = now;
-    let today = now.format("dddd");
-    let time = now.format("HH:mm")
+    let today = now.format("ddd");
+    let time = now.format("HH:mm");
     console.log(today);
     console.log(time);
+    if(today == "Thu"){
+      this.setDay("Donnerstag");
+    } else if(today == "Fri"){
+      this.setDay("Freitag");
+    } else{
+      this.setDay("Donnerstag");
+    }
 
     
   },
