@@ -51,7 +51,8 @@ dayjs.extend(customParseFormat)
 dayjs.extend(utc)
 dayjs.extend(timezone)
 
-let now = dayjs().tz("Europe/Berlin")
+const now = dayjs().tz("Europe/Berlin");
+var nowTime = now.format("HH:mm");
 let nowLesson;
 
 
@@ -87,16 +88,23 @@ export default {
       required: true,
       default: false,
     },
+    nowLesson: {
+      type: Boolean
+    }
   },
   created() { // On load Funktion
-    this.now = now.format("H:mm");
-    this.nowLesson = nowLesson;
-
-    if(now.isBetween(this.startTime, this.endTime)){
+  
+    console.log("Es ist " + nowTime);
+    if(nowTime.isBetween(this.startTime, this.endTime)){
       nowLesson = true
-      console.log(nowLesson)
-    } else{
+      console.log("Lektion wurde auf " + nowLesson + " umgestellt")
+    } else if(!(nowTime.isBetween(this.startTime, this.endTime))){
       nowLesson = false
+      console.log("Zurzeit findet keine Lektion statt.")
+    }
+    else{
+      nowLesson = false
+      console.log("Bei der Zeitabfrage ist ein Fehler aufgetreten.")
     }
   },
 };
