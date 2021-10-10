@@ -1,5 +1,5 @@
 <template>
-  <tr :class="(nowLesson)?'bg-gray-600':'bg-gray-800'"> <!-- ehem bg-gray-800-->
+  <tr :class="(nowLesson)?'bg-gray-700':'bg-gray-800'"> <!-- ehem bg-gray-800-->
       
       <td class="p-3">
         <div class="flex align-items-center">
@@ -93,17 +93,17 @@ export default {
     }
   },
   created() { // On load Funktion
-  
-    console.log("Es ist " + nowTime);
-    if(nowTime.isBetween(this.startTime, this.endTime)){
-      nowLesson = true
-      console.log("Lektion wurde auf " + nowLesson + " umgestellt")
-    } else if(!(nowTime.isBetween(this.startTime, this.endTime))){
-      nowLesson = false
-      console.log("Zurzeit findet keine Lektion statt.")
+    //console.log(this.startTime + " " + this.endTime + " (" + nowTime + ")");
+    if(nowTime >= this.startTime && nowTime <= this.endTime){
+      this.nowLesson = true
+      //console.log("Lektion für " + name + " wurde auf " + this.nowLesson + " umgestellt")
+      return nowLesson;
+    } else if(!(nowTime >= this.startTime && nowTime <= this.endTime)){
+      this.nowLesson = false
+      //console.log("Zurzeit findet keine Lektion statt.")
     }
     else{
-      nowLesson = false
+      this.nowLesson = false
       console.log("Bei der Zeitabfrage ist ein Fehler aufgetreten.")
     }
   },
