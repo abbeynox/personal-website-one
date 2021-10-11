@@ -33,9 +33,9 @@ const router = new VueRouter({
       component: () => import('../views/AboutPage.vue')
     },
     {
-      path: '/stats',
-      name: 'stats',
-      component: () => import('../views/StatsPage.vue')
+      path: '/impressum',
+      name: 'impressum',
+      component: () => import('../views/Impressum.vue')
     },
     {
       path: '/files/periodensystem',

@@ -5,15 +5,13 @@
 
 
         <p class="mb-8 leading-relaxed">
-            Hallo! Ich bin <b>Yao Kaiser</b>, {{ age }} Jahre alt und mache gerade eine Ausbildung zum Software-Entwickler.<br/>
+            Hallo! Ich bin <b>Yao Kaiser</b>, {{ age }} Jahre alt und mache gerade eine Ausbildung zum Software-Entwickler.
             Ich interessiere mich für jegliche Art von Frontend-Anwendungen, aber auch serverseitige Applikationen. 
             Ich bin neugierig und offen neues zu lernen.
-            Parallel dazu absolviere ich die Berufsmatura an der <a class="inline-flex items-center mt-4 text-purple-400" href="https://bbw.ch">BBW Winterthur</a>.
-            Aufgewachsen bin ich in Oberglatt ZH, heute lebe ich mit meiner Familie in Bülach.
-            <br />
-            Ich bin mir noch unsicher, was ich hier noch dazu schreiben kann. Wenn Du Ideen hast, kannst Du mich gerne <a class="inline-flex items-center mt-4 text-purple-400" href="mailto:yao@ywk.ch"> kontaktieren</a>. 
-            Allgemein bin ich für Feedback sehr dankbar.
-            Sonst wünsche ich Dir noch viel Spass auf meiner Website.<br> 
+            Parallel dazu absolviere ich die Berufsmatura an der BBW Winterthur.
+            <br>Aufgewachsen bin ich in Oberglatt ZH, heute lebe ich mit meiner Familie in Bülach.
+            Ich bin mir noch unsicher, was ich hier noch dazu schreiben kann. Wenn Du Ideen hast, kannst Du mich gerne kontaktieren. 
+            <br>Sonst wünsche ich Dir noch viel Spass auf meiner Website.<br> 
         </p>
 
         </div>
