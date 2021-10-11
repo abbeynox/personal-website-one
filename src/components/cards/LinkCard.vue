@@ -5,7 +5,7 @@
                 <div class="flex-grow ">
                     <h2 class="text-lg font-medium text-center text-white title-font md:text-center"><i :class="icon"></i> {{ name }}</h2>
 
-                        <span class="BaseIcon" v-bind:class="[{ 'mr-2' : margin }, name]"></span>
+                        <span class="BaseIcon" v-bind:class="[name]"></span>
 
                 </div>
             </div>
