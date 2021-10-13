@@ -52,7 +52,7 @@ dayjs.extend(utc)
 dayjs.extend(timezone)
 
 const now = dayjs().tz("Europe/Berlin");
-var nowTime = now.format("H:mm");
+var nowTime = now.format("h:mm");
 let nowLesson;
 
 
