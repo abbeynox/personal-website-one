@@ -38,20 +38,16 @@ const router = new VueRouter({
       component: () => import('../views/Impressum.vue')
     },
     {
-      path: '/files/periodensystem',
-      name: 'periodensystem',
+      path: '/education/periodensystem',
+      name: 'education',
       component: () => import('../views/files/Periodensystem.vue'), 
-      alias: '/periodensystem'
+      alias: '/files/periodensystem'
     },
     {
-      path: '/stundenplan',
-      name: 'stundenplan',
+      path: '/education/stundenplan',
+      name: 'education',
       component: () => import('../views/files/Stundenplan.vue'), 
-      alias: '/files/stundenplan'
-    },
-    {
-      path: '/admin',
-      beforeEnter() {location.href = '/'}
+      alias: '/stundenplan',
     },
     {
       path: '/links',

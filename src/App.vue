@@ -2,6 +2,7 @@
   <div id="app">
     <main class="text-gray-400 bg-black">
       <TopNav v-show="$route.name !== 'links'"></TopNav>
+      
       <!-- Fügt Navigationsleiste ein -->
       <transition name="view" appear>
         <!-- Erstellt die "smoothe" Animation -->
@@ -20,7 +21,7 @@
     name: 'App',
 
     components: {
-      TopNav
+      TopNav,
     },
 
   }
