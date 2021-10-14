@@ -14,13 +14,11 @@ const data = [
     description: "Auf dieser Website kann man ein sicheres Passwort generieren lassen. Völlig kostenlos und unkompliziert.",
     url: "https://passwort.ywk.ch",
     icon: "fas fa-key",
-    status: "NEU",
   },
   {
     id: uniqueId("project-"),
     name: "SakumoBot",
     description: "Ein Discord Administrations- und Nützlichkeits-Bot. Programmiert mit Python mithilfe des discord.py Frameworks.",
-    url: "https://sakumo.ywk.ch",
     icon: "fab fa-discord",
   },
   {
