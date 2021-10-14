@@ -93,7 +93,6 @@ export default {
     }
   },
   created() { // On load Funktion
-    //console.log(this.startTime + " " + this.endTime + " (" + nowTime + ")");
     console.log("Momentan ist es " + nowTime + " Uhr")
     if(nowTime >= this.startTime && nowTime <= this.endTime){
       this.nowLesson = true
