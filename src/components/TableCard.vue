@@ -52,7 +52,7 @@ dayjs.extend(utc)
 dayjs.extend(timezone)
 
 const now = dayjs().tz("Europe/Berlin");
-var nowTime = now.format("h:mm");
+var nowTime = now.format("H:mm");
 let nowLesson;
 
 
@@ -94,6 +94,7 @@ export default {
   },
   created() { // On load Funktion
     //console.log(this.startTime + " " + this.endTime + " (" + nowTime + ")");
+    console.log("Momentan ist es " + nowTime + " Uhr")
     if(nowTime >= this.startTime && nowTime <= this.endTime){
       this.nowLesson = true
       //console.log("Lektion für " + name + " wurde auf " + this.nowLesson + " umgestellt")
