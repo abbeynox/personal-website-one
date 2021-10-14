@@ -18,7 +18,7 @@ const data = [
   {
     id: uniqueId("project-"),
     name: "SakumoBot",
-    description: "Ein Discord Administrations- und Nützlichkeits-Bot. Programmiert mit Python mithilfe des discord.py Frameworks.",
+    description: "Ein Discord Administrations- und Nützlichkeits-Bot. Programmiert mit Python mit dem discord.py Framework.",
     icon: "fab fa-discord",
   },
   {
