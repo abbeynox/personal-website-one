@@ -152,12 +152,12 @@
 
 <script>
 
-import axios from 'axios';
+//import axios from 'axios';
 
 export default {
   name: "Features",
 
-  mounted: function() {
+  /*mounted: function() {
     axios
       .get("https://jsonplaceholder.typicode.com/posts")
       //.then((response) => (this.posts = response.data))
@@ -165,7 +165,7 @@ export default {
       // eslint-disable-next-line no-unused-vars
       .catch(error => this.posts = [{title: 'No playlists found'}])
       .finally(() => console.log("Data loading complete. For developers: https://ywk.ch/dev"));
-  },
+  },*/
 
   data: function() {
     return {

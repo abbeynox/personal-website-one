@@ -13,7 +13,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-
+Vue.config.productionTip = false;
+Vue.config.productionSourceMap = false;
 Vue.config.devtools = false;
 Vue.config.debug = false;
 Vue.config.silent = true;
