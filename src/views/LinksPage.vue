@@ -33,6 +33,10 @@
         },
         components: {
             LinkCard
-            }
+        },
+        
+        mounted: function() {
+            console.log(links)
         }
+    }
 </script>
