@@ -11,14 +11,7 @@ import VueScrollReveal from 'vue-scroll-reveal';
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-
-
 Vue.component('font-awesome-icon', FontAwesomeIcon)
-
-Vue.use(VueRouter);
-Vue.use(VuePageTransition)
-Vue.use(VueCarousel);
-Vue.use(VueScrollReveal);
 
 if (location.hostname.indexOf('yao.earth') === -1) {
   Vue.config.debug = true;
@@ -29,6 +22,11 @@ if (location.hostname.indexOf('yao.earth') === -1) {
   Vue.config.silent = true;
   console.log("Debug Tools aus")
 }
+
+Vue.use(VueRouter);
+Vue.use(VuePageTransition)
+Vue.use(VueCarousel);
+Vue.use(VueScrollReveal);
 
 new Vue({
   router,
