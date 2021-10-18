@@ -21,6 +21,8 @@ Vue.use(VueCarousel);
 Vue.use(VueScrollReveal);
 
 Vue.config.productionTip = false
+Vue.config.devtools = false
+Vue.config.debug = false
 Vue.config.silent = true
 
 new Vue({
