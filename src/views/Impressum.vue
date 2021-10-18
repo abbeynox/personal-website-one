@@ -12,7 +12,6 @@
             <div class="flex flex-col w-full mb-10 text-center">
                 <h1 class="text-2xl font-bold text-white sm:text-2xl title-font">Kontakt</h1>
                 <p class="text-2xl text-white"><i class="fas fa-envelope"></i> yao@ywk.ch</p>
-                <p class="text-2xl text-white"><i class="fas fa-phone-alt"></i> 079 849 41 51</p>
             </div>  
         </div>
         

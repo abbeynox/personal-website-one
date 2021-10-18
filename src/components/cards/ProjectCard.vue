@@ -9,7 +9,7 @@
           <div class="text-2xl font-bold">
             <BaseIcon :name="icon" />{{ name }} <LinkIcon class="hover:text-indigo-500" v-show="url !== undefined" name="fas fa-external-link-alt" />
           </div>  
-          <p class="leading-relaxed">{{ description }}</p> 
+          <p class="leading-relaxed">{{ description }}</p>
         </div>
       </a>
     </div>
