@@ -13,15 +13,11 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-if (location.hostname.indexOf('yao.earth') === -1) {
-  Vue.config.debug = true;
-  console.log("Debug Tools an")
-} else {
-  Vue.config.devtools = false;
-  Vue.config.debug = false;
-  Vue.config.silent = true;
-  console.log("Debug Tools aus")
-}
+
+Vue.config.devtools = false;
+Vue.config.debug = false;
+Vue.config.silent = true;
+
 
 Vue.use(VueRouter);
 Vue.use(VuePageTransition)
