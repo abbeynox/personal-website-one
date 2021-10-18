@@ -20,10 +20,15 @@ Vue.use(VuePageTransition)
 Vue.use(VueCarousel);
 Vue.use(VueScrollReveal);
 
-Vue.config.productionTip = false
-Vue.config.devtools = false
-Vue.config.debug = false
-Vue.config.silent = true
+if (location.hostname.indexOf('yao.earth') === -1) {
+  Vue.config.debug = true;
+  console.log("Debug Tools an")
+} else {
+  Vue.config.devtools = false;
+  Vue.config.debug = false;
+  Vue.config.silent = true;
+  console.log("Debug Tools aus")
+}
 
 new Vue({
   router,
