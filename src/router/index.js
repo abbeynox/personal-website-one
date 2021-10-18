@@ -10,7 +10,7 @@ Vue.use(VuePageTitle, {
 })
 
 const router = new VueRouter({
-  mode: 'production', //standard history
+  mode: 'history',
   base: process.env.BASE_URL, 
   scrollBehavior() {
     return { x: 0, y: 0 };
