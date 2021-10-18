@@ -39,13 +39,13 @@ const router = new VueRouter({
     },
     {
       path: '/education/periodensystem',
-      name: 'education',
+      name: 'periodensystem',
       component: () => import('../views/files/Periodensystem.vue'), 
       alias: '/files/periodensystem'
     },
     {
       path: '/education/stundenplan',
-      name: 'education',
+      name: 'stundenplan',
       component: () => import('../views/files/Stundenplan.vue'), 
       alias: '/stundenplan',
     },
