@@ -85,6 +85,11 @@ const router = new VueRouter({
       alias: '/ql'
     },
     {
+      path: '/cloud',
+      beforeEnter() {location.href = 'https://cloud.ywk.ch'},
+      alias: '/cloud/*'
+    },
+    {
       path: '*', // Nimmt jedes andere Verzeichnis, welches nicht definiert ist. 
       name: '404',
       component: () => import ('../views/404Page.vue')
