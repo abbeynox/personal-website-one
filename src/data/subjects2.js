@@ -1,13 +1,6 @@
 import uniqueId from "lodash.uniqueid";
 
 const data = [
-  {
-    id: uniqueId("subject-"),
-    day: "Freitag",
-    name: "Schulfrei",
-    subName: "Wegen ITT findet die Schule heute nicht statt. Schüler:innen werden zugunsten des Betriebs freigestellt. Siehe BBW Terminplan: https://rlnk.be/oMHq.",
-    test: false
-  },
   
   {
       id: uniqueId("subject-"),
@@ -77,7 +70,7 @@ const data = [
       endTime: "13:40",
       room: "A323",
       teacher: "Kollbrunner",
-      test: false
+      test: true
     },
     {
       id: uniqueId("subject-"),
@@ -87,7 +80,7 @@ const data = [
       endTime: "14:30",
       room: "A323",
       teacher: "Kollbrunner",
-      test: false
+      test: true
     },
     {
       id: uniqueId("subject-"),
