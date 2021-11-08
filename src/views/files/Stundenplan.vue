@@ -25,7 +25,7 @@
                     <th class="p-3 text-left">Fach</th>
                     <th class="p-3 text-left">Zimmer</th>
                     <th class="p-3 text-left">Lehrer</th>
-                    <th class="p-3 text-left">Weiteres</th>
+                    <th class="p-3 text-left">Prüfung</th>
                   </tr>
                 </thead>
                 <tbody v-for="subject in subjects" :key="subject.id">
