@@ -1,5 +1,5 @@
 <template>
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 mx-auto">
         <div class="flex flex-col w-full mb-20 text-center">
         <Header title="Hey," description="willkommen auf Yao.Earth🌎"></Header>
         <transition name="view" appear>

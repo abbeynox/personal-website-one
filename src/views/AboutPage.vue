@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Header title="Über mich" description="Ich stelle mich vor..."></Header>
+        <Header title="Über mich" description="Ich stelle mich vor."></Header>
         <Vorstellung />
         <Skills />
         
