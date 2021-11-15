@@ -16,7 +16,7 @@
 
         </div>
         <div class="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
-        <img class="object-cover object-center rounded" alt="hero" src="../assets/Yao_Full.jpg">
+        <img class="object-cover object-center rounded" alt="hero" src="../assets/yao_holiday.jpeg">
         </div>
     </div>
     </section>
