@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Header title="Impressum" description="Verantwortlich für die Inhalte dieser Website"></Header>
+        <Header title="Impressum" description="Inhaltlich Verantwortlicher"></Header>
         
         <div class="container px-5 mx-auto">
             <div class="flex flex-col w-full mb-10 text-center">
@@ -11,7 +11,7 @@
 
             <div class="flex flex-col w-full mb-10 text-center">
                 <h1 class="text-2xl font-bold text-white sm:text-2xl title-font">Kontakt</h1>
-                <p class="text-2xl text-white"><i class="fas fa-envelope"></i> yao@ywk.ch</p>
+                <p class="text-2xl text-white"><i class="fas fa-envelope"></i> yao@yao.earth</p>
             </div>  
         </div>
         
