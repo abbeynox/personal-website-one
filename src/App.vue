@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <main class="text-gray-400 bg-black mx-44 md:mx-auto">
+    <main class="mx-0 text-gray-400 bg-black md:mx-44">
       <TopNav v-show="$route.name !== 'links'"></TopNav>
       
       <!-- Fügt Navigationsleiste ein -->
