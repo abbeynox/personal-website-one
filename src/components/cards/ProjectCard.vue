@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-wrap m-4 mb-12 text-center">
-    <div class="w-full mx-auto text-center xl:w-1/2 lg:w-3/4">
+    <div class="w-full mx-auto text-center">
       <a :href="url" target="_blank">
         <div class="px-4 py-6 border-2 border-gray-800 rounded-lg group hover:bg-indigo-500 hover:bg-opacity-10 hover:shadow-lg hover:border-indigo-500">
           <div class="border-solid md:border-dotted ...">
