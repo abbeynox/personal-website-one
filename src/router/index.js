@@ -60,6 +60,11 @@ const router = new VueRouter({
       alias: ['/gh', '/git'],
     },
     {
+      path: '/facebook',
+      beforeEnter() {location.href = 'https://www.facebook.com/kaikai.kaiser'},
+      alias: ['/fb'],
+    },
+    {
       path: '/instagram',
       beforeEnter() {location.href = 'http://www.instagram.com/yao.earth'},
       alias: ['/ig', '/insta']

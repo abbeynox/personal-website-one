@@ -5,7 +5,7 @@
       <div class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
         <a class="flex items-center mb-4 font-medium text-white title-font md:mb-0">
             <img class="w-10 h-10 text-white p-0.5 bg-purple-500 rounded-full" alt="hero" src="../assets/YaoDev.jpg"> 
-          <span class="ml-3 text-xl">yao.earth</span>
+          <span class="ml-3 text-xl">Yao.Earth</span>
         </a>
 
         <nav class="flex flex-wrap items-center justify-center text-base md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700">

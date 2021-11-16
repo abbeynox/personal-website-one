@@ -36,6 +36,14 @@ const data = [
   },
   {
     id: uniqueId("link-"),
+    name: "Facebook",
+    url: "https://yao.earth/facebook",
+    icon: "fab fa-facebook",
+    fromColor: "blue-400",
+    toColor: "blue-500",
+  },
+  {
+    id: uniqueId("link-"),
     name: "GitHub",
     url: "https://yao.earth/github",
     icon: "fab fa-github",
