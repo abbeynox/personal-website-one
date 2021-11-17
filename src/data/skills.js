@@ -6,8 +6,10 @@ const data = [{ id: uniqueId('skill-'), name: 'Vue.js', icon: 'fab fa-vuejs', st
 { id: uniqueId('skill-'), name: 'NPM', icon: 'fab fa-npm', stars: 4 },
 { id: uniqueId('skill-'), name: 'Java', icon: 'fab fa-java', stars: 2 },
 { id: uniqueId('skill-'), name: 'Bootstrap', icon: 'fab fa-bootstrap', stars: 3 },
-{ id: uniqueId('skill-'), name: 'Tailwind CSS', stars: 3 },
+{ id: uniqueId('skill-'), name: 'Tailwind CSS', icon: 'fas fa-paint-brush', stars: 3 },
 { id: uniqueId('skill-'), name: 'Python', icon: 'fab fa-python', stars: 4 },
+{ id: uniqueId('skill-'), name: 'SQL', icon: 'fas fa-database', stars: 3 },
+{ id: uniqueId('skill-'), name: 'Plesk', icon: 'fas fa-server', stars: 4 },
 { id: uniqueId('skill-'), name: 'HTML 5', icon: 'fab fa-html5', stars: 5 }]
 export default data;
 
