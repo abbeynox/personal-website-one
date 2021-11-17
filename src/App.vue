@@ -9,6 +9,7 @@
         <router-view></router-view>
         <!-- Passt sich individuell an einer in Router definierten Seite an -->
       </transition>
+      <Footer v-show="$route.name !== 'links'"></Footer>
     </main>
   </div>
 </template>
@@ -16,12 +17,14 @@
 <script type="text/javascript">
 
   import TopNav from './components/Navbar';
+  import Footer from './components/Footer';
   
   export default {  // Registriert Komponente
     name: 'App',
 
     components: {
       TopNav,
+      Footer,
     },
 
   }
