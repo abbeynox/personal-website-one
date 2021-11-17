@@ -24,7 +24,7 @@
         </div> 
 
         <button
-          class="inline-flex items-center justify-center mt-3 text-purple-400"
+          class="inline-flex items-center justify-center mx-6 mt-3 text-center text-purple-400"
           @click="showLess = false; showButton = false;"
           v-show="showButton == true"
           >Mehr Links anzeigen

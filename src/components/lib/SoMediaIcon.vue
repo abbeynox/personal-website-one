@@ -1,6 +1,6 @@
 <template>
     <a :href="url" target="_blank">
-        <span class="text-3xl SoMediaIcon" v-bind:class="[icon]"></span>
+        <span class="text-xl SoMediaIcon" v-bind:class="[icon]"></span>
     </a>
 </template>
 

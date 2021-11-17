@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col p-8 bg-gray-800 shadow-md hover:shodow-lg rounded-2xl">
+    <a :href="url" class="flex flex-col p-8 mx-6 bg-gray-800 shadow-md hover:shodow-lg rounded-2xl">
         <div class="flex items-center justify-between">
             <div class="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg"
@@ -12,10 +12,12 @@
                     <div class="text-lg font-medium leading-none text-gray-100">{{ name }}</div>
                     <p class="mt-1 text-lg leading-none text-gray-400">{{ description }}</p>
                 </div>
+                
             </div>
-            <router-link
-            class="inline-flex items-center justify-center mt-3 text-purple-400"
-            to="/links"
+            
+            <a
+            class="items-center justify-center hidden mt-3 text-purple-400 md:inline-flex md:visible"
+            :href="url"
             >öffnen
             <svg
                 fill="none"
@@ -28,9 +30,9 @@
             >
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
-            </router-link>        
+            </a>        
         </div>
-    </div>
+    </a>
 </template>
 
 <script>
