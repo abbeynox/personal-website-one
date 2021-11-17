@@ -4,7 +4,7 @@
       <div class="mb-20">
         <Header title="Skills" description="Meine Lieblings-Technologien." text="Ich benutze vielfältige Tools für meine Projekte, hier habe ich einige davon aufgelistet." titleColor="text-blue-400"></Header>
 
-        <div class="grid grid-cols-1 gap-5 md:grid-cols-3">
+        <div class="grid grid-cols-1 m-4 md:gap-5 md:grid-cols-3 md:m-auto">
           <div v-for="skill in skills" :key="skill.id">
             <SkillCard :name="skill.name" :icon="skill.icon" :stars="skill.stars" :starsArray="skill.starsArray"></SkillCard>   
           </div> 

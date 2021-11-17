@@ -1,16 +1,16 @@
 <template>
     <section class="text-gray-400 bg-black body-font">
     <div class="container flex flex-col items-center mx-auto md:flex-row">
-        <div class="flex flex-col items-center m-4 text-center lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0">
+        <div class="flex flex-col items-center mx-5 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0">
 
 
-        <p class="mb-8 leading-relaxed">
+        <p class="leading-relaxed">
             Hallo! Ich bin <b>Yao Kaiser</b>, {{ age }} Jahre alt und mache gerade eine Ausbildung zum Software-Entwickler.
             Ich interessiere mich für jegliche Art von Frontend-Anwendungen, aber auch serverseitige Applikationen. 
             Ich bin neugierig und offen neues zu lernen.
             Parallel dazu absolviere ich die Berufsmatura an der BBW Winterthur.
             <br>Aufgewachsen bin ich in Oberglatt ZH, heute lebe ich mit meiner Familie in Bülach.
-            Ich bin mir noch unsicher, was ich hier noch dazu schreiben kann. Wenn Du Ideen hast, kannst Du mich gerne kontaktieren. 
+            Ich tausche mich gerne mit anderen Informatikern über die neusten Technologien aus, zögere nicht, mich zu kontaktieren. 
             <br>Sonst wünsche ich Dir noch viel Spass auf meiner Website.<br> 
         </p>
 
