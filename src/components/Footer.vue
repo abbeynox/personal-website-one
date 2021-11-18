@@ -1,6 +1,6 @@
 <template>
 
-<div class="fixed inset-x-0 bottom-0 pt-2">
+<div class="bottom-0 pt-2 md:mt-52">
     <div class="flex flex-col max-w-6xl px-3 pt-5 pb-5 m-auto text-sm text-gray-400 border-t md:flex-row">
         <div class="mt-2">© 2021 Yao Kaiser. Alle Rechte vorbehalten.</div>
             <div class="flex flex-row mt-2 md:flex-auto md:flex-row-reverse">
