@@ -3,7 +3,7 @@ import uniqueId from "lodash.uniqueid";
 const data = [
     {
     id: uniqueId("shortlink-"),
-    name: "Stundenplan",
+    name: "BBW Stundenplan",
     url: "https://yao.earth/stundenplan",
     description: "Exklusiver Stundenplan für die Klassen in meiner Berufsschule.",
     todayImportant: true

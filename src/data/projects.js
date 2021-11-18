@@ -38,6 +38,14 @@ const data = [
   },
   {
     id: uniqueId("project"),
+    name: "Verben Trainer",
+    description:
+      "Eine Plattform, auf der man französische Verbformen üben kann.",
+    icon: "fas fa-language",
+    status: "Release Januar 2022",
+  },
+  {
+    id: uniqueId("project"),
     name: "Shortcut Practicer",
     description:
       "Eine Plattform, auf der man wichtige Tastaturkürzel üben kann.",
