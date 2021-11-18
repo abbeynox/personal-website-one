@@ -6,7 +6,7 @@
           <div class="border-solid md:border-dotted ...">
             <span v-show="status !== 'N/A'" class="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-indigo-100 bg-indigo-700 rounded">{{ status }}</span>
           </div>
-          <div class="text-2xl font-bold">
+          <div class="text-2xl font-bold text-white">
             <BaseIcon :name="icon" />{{ name }} <LinkIcon class="hover:text-indigo-500" v-show="url !== undefined" name="fas fa-external-link-alt" />
           </div>  
           <p class="leading-relaxed">{{ description }}</p>

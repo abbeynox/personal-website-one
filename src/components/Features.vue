@@ -2,9 +2,10 @@
   <section class="text-gray-400 bg-black body-font">
     <div class="container mx-auto mb-12">
       <Header title="Schnellzugriffe" description="Aktuelle Schnellzugriffe." titleColor="text-green-400"></Header>
+      <div class="justify-center">
 
         <div v-if="showLess">
-          <div class="flex flex-col gap-2 outline-none min-w-screen animated fadeIn faster focus:outline-none">
+          <div class="flex flex-col gap-5 mx-5 outline-none min-w-screen animated fadeIn faster focus:outline-none">
             <div v-for="shortlink in shortlinks.slice(0, 3)" :key="shortlink.id">
               <div v-show="shortlink.todayImportant == true">
                 <ShortLinkCard :name="shortlink.name" :icon="shortlink.icon" :url="shortlink.url" :description="shortlink.description" :todayImportant="shortlink.todayImportant"></ShortLinkCard>
@@ -14,7 +15,7 @@
         </div>
 
         <div v-else> 
-          <div class="flex flex-col gap-2 outline-none min-w-screen animated fadeIn faster focus:outline-none">
+          <div class="flex flex-col gap-5 mx-5 outline-none min-w-screen animated fadeIn faster focus:outline-none">
             <div v-for="shortlink in shortlinks" :key="shortlink.id">
               <div v-show="shortlink.todayImportant == true">
                 <ShortLinkCard :name="shortlink.name" :icon="shortlink.icon" :url="shortlink.url" :description="shortlink.description"></ShortLinkCard>
@@ -40,6 +41,7 @@
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </button>
+      </div>
     </div>
   </section>
 </template>
