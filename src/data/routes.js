@@ -1,12 +1,4 @@
 const data = [
-  
-    {
-        path: '/t/redirect', 
-        name: 'redirect',
-        redirectUri: 'https://bing.com',
-        component: () => import('../views/RedirectPage.vue'),
-        next() {location.href = 'https://bing.com';},
-      },
       {
         path: '/', // Definiert Verzeichnis
         name: 'index', // Seitenname 
@@ -46,42 +38,50 @@ const data = [
       },
       {
         path: '/github',
-        beforeEnter() {location.href = 'http://github.com/kaiseryao'},
+        component: () => import('../views/RedirectPage.vue'),
+        redirectUri: 'http://github.com/kaiseryao',
         alias: ['/gh', '/git'],
       },
       {
         path: '/facebook',
-        beforeEnter() {location.href = 'https://www.facebook.com/kaikai.kaiser'},
+        component: () => import('../views/RedirectPage.vue'),
+        redirectUri: 'https://www.facebook.com/kaikai.kaiser',
         alias: ['/fb'],
       },
       {
         path: '/instagram',
-        beforeEnter() {location.href = 'http://www.instagram.com/yao.earth'},
+        component: () => import('../views/RedirectPage.vue'),
+        redirectUri: 'http://www.instagram.com/yao.earth',
         alias: ['/ig', '/insta']
       },
       {
         path: '/linkedin',
-        beforeEnter() {location.href = 'https://www.linkedin.com/in/yaokaiser/'},
+        component: () => import('../views/RedirectPage.vue'),
+        redirectUri: 'https://www.linkedin.com/in/yaokaiser/',
         alias: ['/li']
       },
       {
         path: '/twitter',
-        beforeEnter() {location.href = 'http://www.twitter.com/KaiserYao'},
+        component: () => import('../views/RedirectPage.vue'),
+        redirectUri: 'http://www.twitter.com/KaiserYao',
         alias: '/tw'
       },
       {
         path: '/discord',
-        beforeEnter() {location.href = 'https://discord.com/users/649332192119357460'},
+        component: () => import('../views/RedirectPage.vue'),
+        redirectUri: 'https://discord.com/users/649332192119357460',
         alias: '/dc'
       },
       {
         path: '/quizlet',
-        beforeEnter() {location.href = 'https://quizlet.com/class/19641601/'},
+        component: () => import('../views/RedirectPage.vue'),
+        redirectUri:  'https://quizlet.com/class/19641601/',
         alias: '/ql'
       },
       {
         path: '/cloud',
-        beforeEnter() {location.href = 'https://cloud.ywk.ch'},
+        component: () => import('../views/ProjectPage.vue'),
+        redirectUri: 'https://cloud.ywk.ch',
         alias: '/cloud/*'
       },
       {
