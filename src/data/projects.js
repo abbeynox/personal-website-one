@@ -46,14 +46,6 @@ const data = [
   },
   {
     id: uniqueId("project"),
-    name: "Shortcut Practicer",
-    description:
-      "Eine Plattform, auf der man wichtige Tastaturkürzel üben kann.",
-    icon: "fas fa-keyboard",
-    status: "in Planung",
-  },
-  {
-    id: uniqueId("project"),
     name: "Mehr Projekte",
     description:
       "Weitere Projekte sind auf meinem Github Account aufgeführt",
