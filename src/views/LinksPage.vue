@@ -5,7 +5,7 @@
             <div class="flex flex-col content-center w-full text-center md:m-1">
                 <img class="mx-auto w-40 h-40 text-white p-0.5 bg-purple-500 rounded-full m-5" alt="hero" src="../assets/YaoDev.jpg">
                 <h1 class="mb-4 text-6xl font-bold text-white sm:text-6xl title-font">Yao Kaiser</h1>
-                <Notification title="Social Media Pause" description="Bis zum 11. Dezember 2021 auf Social Media inaktiv." link="https://yao.earth/socialmediapause"></Notification>
+                <Notification title="Social Media Pause" description="Bis zum 11. Dezember 2021 auf Social Media inaktiv."></Notification>
             </div>
         </div>
 
