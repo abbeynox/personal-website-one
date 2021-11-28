@@ -10,10 +10,10 @@
           </div> 
         </div>
 
-        <router-link
-          class="flex px-8 py-2 mx-auto mt-16 text-lg text-white bg-purple-500 border-0 rounded focus:outline-none hover:bg-purple-600" to="/github" tag="button">
+        <a
+          class="flex px-8 py-2 mx-auto mt-16 text-lg text-white bg-purple-500 border-0 rounded focus:outline-none hover:bg-purple-600" target="_blank" href="https://cloud.ywk.ch/s/aiCtgYKq8BNbrCZ" tag="button">
           Mein CV herunterladen 
-        </router-link>
+        </a>
       </div>
 
 
