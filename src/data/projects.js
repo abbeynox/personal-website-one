@@ -15,6 +15,14 @@ const data = [
     url: "https://passwort.ywk.ch",
     icon: "fas fa-key",
   },
+    {
+    id: uniqueId("project-"),
+    name: "YWK Cloud",
+    description: "Auf Plesk habe ich mittels NextCloud einen Cloud Server aufgesetzt. Auf dieser zentralen Stelle werden auch alle Projektdateien gespeichert und Dokumente wie mein CV geteilt.",
+    url: "https://cloud.ywk.ch",
+    icon: "fas fa-cloud",
+    status: "NEU",
+  },
   {
     id: uniqueId("project-"),
     name: "SakumoBot",
@@ -24,7 +32,7 @@ const data = [
   {
     id: uniqueId("project-"),
     name: "Rlnk.be",
-    description: "Eine URL Shortener Website, geschrieben mit Node.js.",
+    description: "Eine URL Shortener Website, geschrieben mit Node.js und Bootstrap für das User Interface.",
     url: "https://rlnk.be",
     icon: "fas fa-link",
   },
