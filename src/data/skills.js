@@ -9,7 +9,7 @@ const data = [{ id: uniqueId('skill-'), name: 'Vue.js', icon: 'fab fa-vuejs', ra
 { id: uniqueId('skill-'), name: 'Tailwind CSS', icon: 'fas fa-paint-brush', rate: 9 },
 { id: uniqueId('skill-'), name: 'Python', icon: 'fab fa-python', rate: 4 },
 { id: uniqueId('skill-'), name: 'SQL', icon: 'fas fa-database', rate: 3 },
-{ id: uniqueId('skill-'), name: 'Plesk', icon: 'fas fa-server', rate: 4 },
-{ id: uniqueId('skill-'), name: 'HTML 5', icon: 'fab fa-html5', rate: 10 }]
+{ id: uniqueId('skill-'), name: 'Plesk', icon: 'fas fa-server', rate: 5 },
+{ id: uniqueId('skill-'), name: 'HTML 5', icon: 'fab fa-html5', rate: 9 }]
 export default data;
 

@@ -54,7 +54,7 @@ import ShortLinkCard from './cards/ShortLinkCard'
 
 export default {
 
-  name: "Features",
+  name: "QuickLinks",
   
   data: function() {
     return {
