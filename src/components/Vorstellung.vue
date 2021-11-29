@@ -1,10 +1,10 @@
 <template>
     <section class="text-gray-400 bg-black body-font">
     <div class="container flex flex-col items-center mx-auto md:flex-row">
-        <div class="flex flex-col items-center mx-5 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-0">
+        <div class="flex flex-col items-center mx-5 text-lg text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-4">
 
 
-        <p class="leading-relaxed">
+        <p class="text-lg">
             Hallo! Ich bin <b>Yao Kaiser</b>, {{ age }} Jahre alt und mache gerade eine Ausbildung zum Software-Entwickler.
             Ich interessiere mich für jegliche Art von Frontend-Anwendungen, aber auch serverseitige Applikationen. 
             Ich bin neugierig und offen neues zu lernen.
