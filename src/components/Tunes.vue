@@ -5,10 +5,19 @@
         <Header
           title="Musik"
           description="Meine Lieblings-Songs."
-          text="Über die Last.fm API frage ich meine meistgespielten Songs auf Apple Music ab. Diese Auflistung wird täglich aktualisiert."
+          :text="
+            'Diese Rangliste wird wöchentlich neu aktualisiert.\n Mit ' +
+            favArtist[0].playcount +
+            ' Wiedergaben ist ' +
+            favArtist[0].name +
+            ' mein Lieblings-Artist. Danach folgt ' +
+            favArtist[1].name +
+            ' mit ' +
+            favArtist[1].playcount +
+            ' Wiedergaben.'
+          "
           titleColor="text-pink-300"
         ></Header>
-
 
         <!-- Table start -->
         <div class="w-full px-4 pb-4 bg-transparent rounded-md">
@@ -20,39 +29,31 @@
                   style="font-size: 0.9674rem"
                 >
                   <th
-                    class="w-1/12 px-4 py-2 bg-gray-200"
-                    style="background-color: #f8f8f8"
-                  >
-                    Title
-                  </th>
+                    class="w-1/12 px-4 py-2 bg-transparent"
+                    style="background-color: bg-black"
+                  ></th>
                   <th
                     class="w-6/12 px-4 py-2"
-                    style="background-color: #f8f8f8"
-                  >
-                    Author
-                  </th>
+                    style="background-color: bg-black"
+                  ></th>
                   <th
                     class="w-5/12 px-4 py-2"
-                    style="background-color: #f8f8f8"
-                  >
-                    Views
-                  </th>
+                    style="background-color: bg-black"
+                  ></th>
                 </tr>
               </thead>
-              <!--<tbody
-                v-for="tune in lastFM"
-                :key="tune.id"
-                class="text-lg font-normal text-gray-700"
-              >-->
+
               <tbody
                 class="text-lg font-normal text-gray-700"
-                v-for="index in 10" v-bind:key="index" 
+                v-for="index in 10"
+                v-bind:key="index"
               >
                 <TuneCard
-                  :songTitle="lastFMd[index-1].name"
-                  :artistName="lastFMd[index-1].artist['#text']"
-                  :plays="lastFMd[index-1].playcount"
-                  :rank="lastFMd[index-1]['@attr'].rank"
+                  :songTitle="lastFMd[index - 1].name"
+                  :artistName="lastFMd[index - 1].artist['#text']"
+                  :plays="lastFMd[index - 1].playcount"
+                  :rank="lastFMd[index - 1]['@attr'].rank"
+                  :songUrl="lastFMd[index - 1].url"
                 ></TuneCard>
               </tbody>
             </table>
@@ -82,6 +83,7 @@ export default {
       loading: true,
       lastFM: [],
       lastFMd: [],
+      favArtist: [],
       tuneId: null,
       keys: [38, 38, 40, 40, 37, 39, 37, 39, 66, 65],
       isChecked: {
@@ -111,13 +113,12 @@ export default {
       .then((response) => {
         this.lastFM = response.data;
         this.lastFMd = response.data.weeklytrackchart.track;
-        console.log(this.lastFMd);
-        console.log(this.lastFMd.length);
         this.loading = false;
+        this.getFavArtist();
       });
 
-    setInterval(this.updateTracks, 30000);
-    },
+    setInterval(this.updateTracks, 10000);
+  },
   methods: {
     updateTracks() {
       axios
@@ -127,6 +128,16 @@ export default {
         .then((response) => {
           this.lastFM = response.data;
         });
+    },
+    getFavArtist() {
+      axios
+        .get(
+          "https://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=kaiseryao&api_key=fff9cc076ea593164f0823f20ed10bcc&format=json"
+        )
+        .then((response) => {
+          this.favArtist = response.data.topartists.artist;
+        });
+      setInterval(this.getFavArtist, 10000);
     },
     listen(e) {
       const key = e.which || e.keyCode || e.detail;

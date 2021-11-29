@@ -2,10 +2,10 @@
   <tr class="py-10 border-b border-gray-700">
     <td class="px-4 py-6 text-gray-400">{{ rank }}</td>
     <td class="px-4 py-6">
-      <p class="text-white">{{ songTitle }}</p>
-      <p class="text-gray-500">{{artistName}}</p>
+      <a :href="songUrl" target="_blank" class="text-white hover:text-pink-300">{{ songTitle }}</a>
+      <p class="text-gray-500">{{ artistName }}</p>
     </td>
-    <td class="px-4 py-6 text-gray-500">{{plays}} Wiedergaben</td>
+    <td class="px-4 py-6 text-gray-500">{{ plays }} Wiedergaben</td>
   </tr>
 </template>
 
@@ -25,6 +25,10 @@ export default {
       required: true,
     },
     plays: {
+      type: String,
+      required: true,
+    },
+    songUrl: {
       type: String,
       required: true,
     },
