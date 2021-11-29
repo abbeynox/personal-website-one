@@ -137,7 +137,6 @@ export default {
         .then((response) => {
           this.favArtist = response.data.topartists.artist;
         });
-      setInterval(this.getFavArtist, 10000);
     },
     listen(e) {
       const key = e.which || e.keyCode || e.detail;
