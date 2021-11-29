@@ -28,7 +28,7 @@ const data = [
       {
         path: '/education/stundenplan',
         name: 'stundenplan',
-        component: () => import('../views/files/Stundenplan.vue'), 
+        component: () => import('../views/Stundenplan.vue'), 
         alias: '/stundenplan',
       },
       {
