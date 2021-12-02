@@ -4,8 +4,8 @@ const data = [
     {
         id: uniqueId("subject-"),
         day: "Donnerstag",
-        name: "M319",
-        subName: "Applikationen entwerfen und implementieren.",
+        name: "M231",
+        subName: "Datenschutz und Datensicherheit anwenden.",
         startTime: "7:35",
         endTime: "8:20",
         room: "3.3",
@@ -15,8 +15,8 @@ const data = [
       {
         id: uniqueId("subject-"),
         day: "Donnerstag",
-        name: "M319",
-        subName: "Applikationen entwerfen und implementieren.",
+        name: "M231",
+        subName: "Datenschutz und Datensicherheit anwenden.",
         startTime: "8:25",
         endTime: "9:10",
         room: "3.3",
@@ -37,8 +37,8 @@ const data = [
       {
         id: uniqueId("subject-"),
         day: "Donnerstag",
-        name: "M319",
-        subName: "Applikationen entwerfen und implementieren.",
+        name: "M231",
+        subName: "Datenschutz und Datensicherheit anwenden.",
         startTime: "11:10",
         endTime: "11:55",
         room: "3.3",
@@ -48,8 +48,8 @@ const data = [
       {
         id: uniqueId("subject-"),
         day: "Donnerstag",
-        name: "M319",
-        subName: "Applikationen entwerfen und implementieren.",
+        name: "M231",
+        subName: "Datenschutz und Datensicherheit anwenden.",
         startTime: "12:00",
         endTime: "12:45",
         room: "3.3",

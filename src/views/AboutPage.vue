@@ -2,8 +2,8 @@
     <div>
         <Header title="Über mich" description="Ich stelle mich vor."></Header>
         <Vorstellung />
-        <Skills />
-        <Tunes />
+        <Skills id="skills" />
+        <Tunes id="tunes" />
         
     </div>
 </template>

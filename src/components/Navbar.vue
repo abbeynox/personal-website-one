@@ -4,7 +4,7 @@
     <header class="text-gray-400 bg-black body-font">
       <div class="container flex flex-col flex-wrap items-center p-5 mx-auto md:flex-row">
         <a class="flex items-center mb-4 font-medium text-white title-font md:mb-0">
-            <img class="w-10 h-10 text-white p-0.5 bg-purple-500 rounded-full" alt="hero" src="../assets/YaoDev.jpg"> 
+            <img class="w-10 h-10 text-white p-0.5 bg-purple-500 rounded-full" alt="hero" src="../assets/YaoDev.png"> 
           <span class="ml-3 text-xl">Yao.Earth</span>
         </a>
 
