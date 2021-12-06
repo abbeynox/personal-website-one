@@ -3,9 +3,11 @@
         <a :href="url" target="_blank">
             <div :class="'flex items-center px-3 py-4 border border-gray-800 rounded-lg bg-gradient-to-r from-' + fromColor + ' ' + viaColor + ' ' +' to-'+ toColor + ' hover:bg-indigo-500 hover:bg-opacity-10 hover:shadow-lg hover:border-indigo-500'">
                 <div class="flex-grow ">
-                    <h2 class="text-lg font-medium text-center text-white title-font md:text-center"><i :class="icon"></i> {{ name }}</h2>
-
-                        <span class="BaseIcon" v-bind:class="[name]"></span>
+                    <div class="items-center text-white">
+                        <i :class="icon" class="float-left mr-2 text-2xl"></i> 
+                        <h2 class="text-lg font-medium text-center title-font md:text-center">{{ name }}</h2>
+                    </div>
+                    
 
                 </div>
             </div>
