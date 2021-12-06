@@ -79,10 +79,14 @@ const data = [
         alias: '/ql'
       },
       {
+        path: '/cv',
+        component: () => import('../views/RedirectPage.vue'),
+        redirectUri:  'https://cloud.ywk.ch/s/aiCtgYKq8BNbrCZ',
+      },
+      {
         path: '/cloud',
-        component: () => import('../views/ProjectPage.vue'),
-        redirectUri: 'https://cloud.ywk.ch',
-        alias: '/cloud/*'
+        component: () => import('../views/RedirectPage.vue'),
+        redirectUri:  'https://cloud.ywk.ch',
       },
       {
         path: '*', // Nimmt jedes andere Verzeichnis, welches nicht definiert ist. 

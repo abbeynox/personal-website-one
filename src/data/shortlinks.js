@@ -32,5 +32,13 @@ const data = [
     todayImportant: true,
     
   }, 
+  {
+    id: uniqueId("shortlink-"),
+    name: "CV Download",
+    url: "https://yao.earth/cv",
+    description: "Lade hier direkt meinen Lebenslauf herunter.",
+    todayImportant: true,
+    
+  }, 
 ];
 export default data;
