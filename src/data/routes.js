@@ -68,9 +68,9 @@ const data = [
       },
       {
         path: '/discord',
+        alias: '/dc',
         component: () => import('../views/RedirectPage.vue'),
         redirectUri: 'https://discord.com/users/649332192119357460',
-        alias: '/dc'
       },
       {
         path: '/quizlet',

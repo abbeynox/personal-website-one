@@ -33,7 +33,7 @@ export default {
             }
             else {
                 console.log("Bei der Weiterleitung ist ein Fehler aufgetreten!");
-
+                setTimeout( () => location.href = "/404?error=Bei der Weiterleitung ist ein Fehler aufgetreten.", 1000)
             }
         }
         // GET Path: this.$router.currentRoute
