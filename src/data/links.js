@@ -11,6 +11,12 @@ const data = [
   },
   {
     id: uniqueId("link-"),
+    name: "CV",
+    url: "https://yao.earth/instagram",
+    icon: "fas fa-file-pd",
+  },
+  {
+    id: uniqueId("link-"),
     name: "Twitter",
     url: "https://yao.earth/twitter",
     icon: "fab fa-twitter",
@@ -27,20 +33,9 @@ const data = [
   },
   {
     id: uniqueId("link-"),
-    name: "Instagram",
-    url: "https://yao.earth/instagram",
-    icon: "fab fa-instagram",
-    fromColor: "purple-400",
-    toColor: "red-500",
-    viaColor: "via-pink-500"
-  },
-  {
-    id: uniqueId("link-"),
-    name: "Facebook",
-    url: "https://yao.earth/facebook",   
-    icon: "fab fa-facebook",
-    fromColor: "blue-400",
-    toColor: "blue-500",
+    name: "Blog",
+    url: "https://blog.yao.earth",   
+    icon: "fas fa-rss",
   },
   {
     id: uniqueId("link-"),
