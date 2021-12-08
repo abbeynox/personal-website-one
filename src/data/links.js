@@ -12,7 +12,7 @@ const data = [
   {
     id: uniqueId("link-"),
     name: "CV",
-    url: "https://yao.earth/instagram",
+    url: "https://yao.earth/cv",
     icon: "fas fa-file-pdf",
   },
   {
