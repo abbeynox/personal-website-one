@@ -3,9 +3,9 @@
         <div class="container content-center px-5 pt-24 pb-1 mx-auto">
             
             <div class="flex flex-col content-center w-full text-center md:m-1">
-                <img class="mx-auto w-40 h-40 text-white p-0.5 bg-purple-500 rounded-full m-5" alt="hero" src="../assets/YaoDev.png">
+                <img class="w-40 h-40 p-1 m-5 mx-auto text-white bg-purple-500 rounded-full" alt="hero" src="../assets/YaoDev.png">
                 <h1 class="mb-4 text-6xl font-bold text-white sm:text-6xl title-font">Yao Kaiser</h1>
-                <Notification title="Social Media Pause" description="Bis zum 11. Dezember 2021 auf Social Media inaktiv."></Notification>
+                <Notification title="Schütze dich und deine Mitmenschen." link="https://bag-coronavirus.ch" description="Wichtige Informationen rund um Covid-19." icon="fas fa-head-side-mask"></Notification>
             </div>
         </div>
 
