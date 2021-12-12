@@ -2,15 +2,10 @@
 
 <template>
   <div>
+    <transition name="slide" leave-active-class="animated bounceOutRight"> 
     <div
       v-show="menuOpen" 
-      class="fixed inset-x-0 bottom-0 w-full h-64 bg-white rounded-t-lg translate-y-60 md:hidden"
-      enter="duration-200 ease-out"
-      enterFrom="opacity-0 scale-95"
-      enterTo="opacity-100 scale-100"
-      leave="duration-100 ease-in"
-      leaveFrom="opacity-100 scale-100"
-      leaveTo="opacity-0 scale-95"
+      class="fixed inset-x-0 bottom-0 z-40 w-full h-64 bg-gray-800 rounded-t-lg translate-y-60 md:hidden"
     >
       <div>
         <div class="grid grid-cols-3 gap-4 justify-items-center">
@@ -100,11 +95,11 @@
           </div>
         </div>
 
-        >
       </div>
     </div>
+    </transition>
 
-    <div class="fixed bottom-0 right-0 visible w-16 h-16 md:invisible">
+    <div class="fixed bottom-0 right-0 z-50 visible w-16 h-16 md:invisible">
       <div class="relative">
         <button
           @click="menuOpen = !menuOpen"
@@ -127,6 +122,7 @@
     </div>
   </div>
 </template>
+
 
 <script>
 import Vue from "vue";
@@ -161,3 +157,18 @@ export default {
 };
 
 </script>
+
+<style scoped>
+.slide-leave-active {
+  transition: 0.25s;
+}
+.slide-enter-active {
+  transition: 0.25s;
+}
+.slide-enter {
+  transform: translate(0, 100%);
+}
+.slide-leave-to {
+  transform: translate(0, -100%);
+}
+</style>

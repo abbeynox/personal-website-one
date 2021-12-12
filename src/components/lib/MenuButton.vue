@@ -4,10 +4,8 @@
     <div class="relative inline-block text-left dropdown">
       <span class="rounded-md shadow-sm"
         ><button
-          class="inline-flex justify-center w-full px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out bg-gray-800 border border-gray-600 rounded-md hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-50 active:text-gray-800"
+          class="inline-flex justify-center w-full px-4 py-2 text-sm font-medium leading-5 text-white transition duration-150 ease-in-out bg-gray-800 border border-gray-600 rounded-md  hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-50 active:text-gray-800"
           type="button"
-          
-
           aria-haspopup="true"
           aria-expanded="true"
           aria-controls="headlessui-menu-items-117"
@@ -26,10 +24,10 @@
           </svg></button
       ></span>
       <div
-        class="invisible transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 opacity-0 dropdown-menu"
+        class="invisible transition-all duration-300 origin-top-right transform scale-95 -translate-y-2 opacity-0  dropdown-menu"
       >
         <div
-          class="absolute right-0 w-56 mt-2 origin-top-right bg-gray-900 border border-gray-800 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+          class="absolute right-0 w-56 mt-2 origin-top-right bg-gray-900 border border-gray-800 divide-y divide-gray-100 rounded-md shadow-lg outline-none "
           aria-labelledby="headlessui-menu-button-1"
           id="headlessui-menu-items-117"
           role="menu"
@@ -44,21 +42,21 @@
             <a
               v-on:click="setDay('Donnerstag')"
               tabindex="0"
-              class="flex justify-between w-full px-4 py-2 text-sm leading-5 text-left text-gray-400 hover:text-gray-200"
+              class="flex justify-between w-full px-4 py-2 text-sm leading-5 text-left text-gray-400  hover:text-gray-200"
               role="menuitem"
               >Donnerstag</a
             >
             <a
               v-on:click="setDay('Freitag')"
               tabindex="1"
-              class="flex justify-between w-full px-4 py-2 text-sm leading-5 text-left text-gray-400 hover:text-gray-200"
+              class="flex justify-between w-full px-4 py-2 text-sm leading-5 text-left text-gray-400  hover:text-gray-200"
               role="menuitem"
               >Freitag</a
             >
             <span
               role="menuitem"
               tabindex="-1"
-              class="flex justify-between w-full px-4 py-2 text-sm leading-5 text-left text-gray-600 opacity-50 cursor-not-allowed"
+              class="flex justify-between w-full px-4 py-2 text-sm leading-5 text-left text-gray-600 opacity-50 cursor-not-allowed "
               aria-disabled="true"
               >Live Ansicht (soon)</span
             >
@@ -74,7 +72,7 @@ export default {
   name: "MenuButton",
   methods: {
     setDay(supposedDay) {
-      this.$emit("setDay", supposedDay); 
+      this.$emit("setDay", supposedDay);
     },
   },
   props: {
@@ -97,10 +95,9 @@ export default {
   opacity: 1;
   transform: translate(0) scale(1);
   visibility: visible;
-  
 }
 
-.dropdown:click{
+.dropdown:click {
   opacity: 1;
   transform: translate(0) scale(1);
   visibility: hidden !important;
