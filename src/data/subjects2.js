@@ -10,7 +10,7 @@ const data = [
       endTime: "8:20",
       room: "A313",
       teacher: "Bukvic",
-      test: false
+      test: true
     },
     {
       id: uniqueId("subject-"),
@@ -20,7 +20,7 @@ const data = [
       endTime: "9:10",
       room: "A313",
       teacher: "Bukvic",
-      test: false
+      test: true
     },
     {
       id: uniqueId("subject-"),
