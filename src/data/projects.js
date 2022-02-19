@@ -21,7 +21,6 @@ const data = [
     description: "Auf Plesk habe ich mittels NextCloud einen Cloud Server aufgesetzt. Auf dieser zentralen Stelle werden auch alle Projektdateien gespeichert und Dokumente wie mein CV geteilt.",
     url: "https://cloud.ywk.ch",
     icon: "fas fa-cloud",
-    status: "NEU",
   },
   {
     id: uniqueId("project-"),
@@ -50,7 +49,7 @@ const data = [
     description:
       "Eine Plattform, auf der man französische Verbformen üben kann.",
     icon: "fas fa-language",
-    status: "Release Januar 2022",
+    status: "In Entwicklung",
   },
   {
     id: uniqueId("project"),
