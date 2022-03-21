@@ -44,18 +44,6 @@ const data = [
     alias: ['/gh', '/git'],
   },
   {
-    path: '/facebook',
-    component: () => import('../views/RedirectPage.vue'),
-    redirectUri: 'https://www.facebook.com/kaikai.kaiser',
-    alias: ['/fb'],
-  },
-  {
-    path: '/instagram',
-    component: () => import('../views/RedirectPage.vue'),
-    redirectUri: 'http://www.instagram.com/yao.earth',
-    alias: ['/ig', '/insta']
-  },
-  {
     path: '/linkedin',
     component: () => import('../views/RedirectPage.vue'),
     redirectUri: 'https://www.linkedin.com/in/yaokaiser/',
@@ -82,7 +70,7 @@ const data = [
   {
     path: '/cv',
     component: () => import('../views/RedirectPage.vue'),
-    redirectUri: 'https://cloud.ywk.ch/s/aiCtgYKq8BNbrCZ',
+    redirectUri: 'https://cloud.ywk.ch/s/cv',
   },
   {
     path: '/cloud',

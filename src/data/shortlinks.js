@@ -10,9 +10,9 @@ const data = [
     },  
   {
     id: uniqueId("shortlink-"),
-    name: "Alle Links",
-    url: "https://yao.earth/links",
-    description: "Gelange direkt zu meinen Social Media Accounts, Kontaktmöglichkeiten oder wichtigen Links.",
+    name: "Blog",
+    url: "https://blog.yao.earth",
+    description: "Erfolgserlebnisse, meine Meinung zu neuen Technologien und Cybersecurity Tipps findest du auf meinem Blog.",
     todayImportant: true
     
   },

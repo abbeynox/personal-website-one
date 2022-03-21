@@ -11,12 +11,6 @@ const data = [
   },
   {
     id: uniqueId("link-"),
-    name: "CV",
-    url: "https://yao.earth/cv",
-    icon: "fas fa-file-pdf",
-  },
-  {
-    id: uniqueId("link-"),
     name: "Twitter",
     url: "https://yao.earth/twitter",
     icon: "fab fa-twitter",

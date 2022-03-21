@@ -81,12 +81,12 @@
           </div>
           <div>
             <a
-              href="https://cloud.ywk.ch"
+              href="https://blog.yao.earth"
               class="flex items-end justify-center w-full px-4 pt-2 mx-auto text-center text-gray-400 hover:text-purple-500"
             >
               <span class="block px-1 pt-1 pb-1">
-                <i class="block pt-1 mb-1 text-2xl fas fa-cloud"></i>
-                <span class="block pb-2 text-xs">Cloud</span>
+                <i class="block pt-1 mb-1 text-2xl fas fa-comment-dots"></i>
+                <span class="block pb-2 text-xs">Blog</span>
                 <span
                   class="block w-5 h-1 mx-auto rounded-full hover:bg-purple-500"
                 ></span>

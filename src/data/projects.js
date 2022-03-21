@@ -45,7 +45,15 @@ const data = [
   },
   {
     id: uniqueId("project"),
-    name: "Verben Trainer",
+    name: "Flightticket Generator",
+    description:
+      "Auf dieser Website kann man fiktive Flugtickets mit PDF417 Codes generieren.",
+    icon: "fas fa-plane",
+    status: "Release April 2022",
+  },
+  {
+    id: uniqueId("project"),
+    name: "Verben Trainer (Verbify)",
     description:
       "Eine Plattform, auf der man französische Verbformen üben kann.",
     icon: "fas fa-language",

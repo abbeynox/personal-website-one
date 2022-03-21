@@ -5,7 +5,7 @@
             <div class="flex flex-col content-center w-full text-center md:m-1">
                 <img class="w-40 h-40 p-1 m-5 mx-auto text-white bg-purple-500 rounded-full" alt="hero" src="../assets/YaoDev.png">
                 <h1 class="mb-4 text-6xl font-bold text-white sm:text-6xl title-font">Yao Kaiser</h1>
-                <Notification title="Schütze dich und deine Mitmenschen." link="https://bag-coronavirus.ch" description="Wichtige Informationen rund um Covid-19." icon="fas fa-head-side-mask"></Notification>
+                <Notification title="Neuer Blog" link="https://blog.yao.earth" description="Erfolgserlebnisse, meine Meinung zu neuen Technologien und Tipps für eine bessere #Cybersecurity findest du auf meinem Blog" icon="fas fa-comment-dots"></Notification>
             </div>
         </div>
 
