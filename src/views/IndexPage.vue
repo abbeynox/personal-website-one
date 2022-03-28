@@ -2,7 +2,7 @@
     <div>
         <IndexHero></IndexHero>
         <SocialMedia></SocialMedia>
-        <QuickLinks></QuickLinks>
+        <Skills></Skills>
     </div>
 </template>
 
@@ -11,7 +11,7 @@
 
     import IndexHero from '../components/IndexHero';
     import SocialMedia from '../components/SocialMedia';
-    import QuickLinks from '../components/QuickLinks';
+    import Skills from '../components/Skills';
     
 
     export default {
@@ -19,7 +19,7 @@
         title: 'Home',
         components: {
             IndexHero,
-            QuickLinks,
+            Skills,
             SocialMedia
             }
         }
