@@ -9,6 +9,12 @@ const data = [
   },
   {
     id: uniqueId("social-"),
+    name: "Threema ID",
+    url: "https://yao.earth/threema",
+    icon: "fas fa-user-shield",
+  },
+  {
+    id: uniqueId("social-"),
     name: "Github",
     url: "https://yao.earth/github",
     icon: "fab fa-github",
