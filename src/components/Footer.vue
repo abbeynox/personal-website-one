@@ -2,7 +2,7 @@
 
 <div class="bottom-0 pt-2 md:mt-52">
     <div class="flex flex-col max-w-6xl px-3 pt-5 pb-5 m-auto text-sm text-gray-500 border-t border-gray-700 md:flex-row">
-        <div class="mt-2">© 2022 Yao Kaiser. Alle Rechte vorbehalten.</div>
+        <div class="mt-2">© 2022 Yao Kaiser. All rights reserved.</div>
             <div class="flex flex-row mt-2 md:flex-auto md:flex-row-reverse">
                 <div v-for="social in socials" :key="social.id">
                     <a :href="social.url" class="w-1 mx-1 md:mx-2">

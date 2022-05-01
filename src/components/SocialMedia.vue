@@ -1,6 +1,6 @@
 <template>
 	<div>
-    <Header title="Social Media" description="Neuste Aktivitäten." text="Hier ist noch nichts zu sehen. #StayTuned" titleColor="text-pink-400"></Header>
+    <Header title="Social Media" description="Recent activity." text="Here is actually nothing to see. #StayTuned" titleColor="text-pink-400"></Header>
   </div>
 </template>
 

@@ -78,6 +78,11 @@ const data = [
     redirectUri: 'https://cloud.ywk.ch',
   },
   {
+    path: '/threema',
+    component: () => import('../views/RedirectPage.vue'),
+    redirectUri: 'https://threema.id/ZV2A3CMD',
+  },
+  {
     path: '*', // Nimmt jedes andere Verzeichnis, welches nicht definiert ist. 
     name: '404',
     component: () => import('../views/404Page.vue')

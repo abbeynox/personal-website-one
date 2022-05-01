@@ -49,7 +49,7 @@ const data = [
     description:
       "Auf dieser Website kann man fiktive Flugtickets mit PDF417 Codes generieren.",
     icon: "fas fa-plane",
-    status: "Release April 2022",
+    url: "https://github.com/kaiseryao/pdf417-generator"
   },
   {
     id: uniqueId("project"),

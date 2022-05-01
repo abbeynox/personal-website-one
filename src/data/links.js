@@ -11,6 +11,22 @@ const data = [
   },
   {
     id: uniqueId("link-"),
+    name: "Threema ID",
+    url: "https://yao.earth/threema",
+    icon: "fas fa-user-shield",
+    fromColor: "gray-700",
+    toColor: "gray-800"
+  },
+  {
+    id: uniqueId("link-"),
+    name: "Email",
+    url: "mailto:yao.kaiser@protonmail.com",
+    icon: "fas fa-atom",
+    fromColor: "gray-700",
+    toColor: "gray-800"
+  },
+  {
+    id: uniqueId("link-"),
     name: "Twitter",
     url: "https://yao.earth/twitter",
     icon: "fab fa-twitter",
@@ -33,19 +49,19 @@ const data = [
   },
   {
     id: uniqueId("link-"),
+    name: "DTube",
+    url: "https://d.tube/#!/c/namaliboy33",   
+    icon: "fas fa-video",
+  },
+  {
+    id: uniqueId("link-"),
     name: "GitHub",
     url: "https://yao.earth/github",
     icon: "fab fa-github",
     fromColor: "gray-800",
     toColor: "gray-900"
   },
-  {
-    id: uniqueId("link-"),
-    name: "Discord",
-    url: "https://yao.earth/discord",
-    icon: "fab fa-discord",
-    fromColor: "gray-700",
-    toColor: "gray-800"
-  },
+
 ];
 export default data;
+ 

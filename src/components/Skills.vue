@@ -4,8 +4,8 @@
       <div class="mb-20">
         <Header
           title="Skills"
-          description="Meine Lieblings-Technologien."
-          text="Ich benutze vielfältige Tools für meine Projekte, hier habe ich einige davon aufgelistet."
+          description="My favorite technologies."
+          text="I use many different tools for my projects, here I have listed some of them."
           titleColor="text-blue-400"
         ></Header>
 
