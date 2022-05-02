@@ -1,35 +1,44 @@
 <template>
-    <section class="text-gray-400 bg-black body-font">
+  <section class="text-gray-400 bg-black body-font">
     <div class="container flex flex-col items-center mx-auto md:flex-row">
-        <div class="flex flex-col items-center mx-5 text-lg text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:mb-4">
-
-
+      <div
+        class="
+          flex flex-col
+          items-center
+          mx-5
+          text-lg text-left
+          lg:flex-grow
+          md:w-1/2
+          lg:pr-24
+          md:pr-16 md:items-start md:mb-4
+        "
+      >
         <p class="text-lg">
-            Hallo! Ich bin <b>Yao Kaiser</b>, {{ age }} Jahre alt und mache gerade eine Ausbildung zum Software-Entwickler.
-            Ich interessiere mich für jegliche Art von Frontend-Anwendungen, aber auch serverseitige Applikationen. 
-            Ich bin neugierig und offen neues zu lernen.
-            Parallel dazu absolviere ich die Berufsmatura an der BBW Winterthur.
-            <br>Aufgewachsen bin ich in Oberglatt ZH, heute lebe ich mit meiner Familie in Bülach.
-            Ich tausche mich gerne mit anderen Informatikern über die neusten Technologien aus, zögere nicht, mich zu kontaktieren. 
-            <br>Sonst wünsche ich Dir noch viel Spass auf meiner Website.<br> 
+          Hello! I'm Yao and {{ age }} years old. Where should I begin.. I was excited about computers
+          and the Internet very early. But I really started programming only in
+          April 2020, exactly at the time when the exactly at the time when the
+          Corona pandemic started. Besides programming I am interested in net
+          activism - this includes especially privacy and security on the
+          internet. On this website I have concisely summarized some things
+          about me. I would like to share my experiences with you and wish you a
+          lot of fun on my website.
         </p>
-
-        </div>
+      </div>
     </div>
-    </section>
+  </section>
 </template>
 
 <script>
-import day from 'dayjs'
-const birthday = day('6 June 2004');
+import day from "dayjs";
+const birthday = day("6 June 2004");
 const age = Math.abs(
-    new Date(Date.now() - birthday.toDate().getTime()).getUTCFullYear()- 1970
+  new Date(Date.now() - birthday.toDate().getTime()).getUTCFullYear() - 1970
 );
 
 export default {
-    name: 'Vorstellung',
-    created() {
-        this.age = age;
-    }
-}
+  name: "Vorstellung",
+  created() {
+    this.age = age;
+  },
+};
 </script>

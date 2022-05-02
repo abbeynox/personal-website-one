@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header
-      title="Stundenplan"
+      title="Timetable (Stundenplan)"
       description="Exklusiv für die Klassen 5IA21b & 6MT21k"
     ></Header>
 

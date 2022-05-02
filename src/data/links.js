@@ -3,7 +3,7 @@ import uniqueId from "lodash.uniqueid";
 const data = [
   {
     id: uniqueId("link-"),
-    name: "Meine Website",
+    name: "My Website",
     url: "https://yao.earth",
     icon: "fas fa-globe-americas",
     fromColor: "purple-600",
@@ -19,11 +19,11 @@ const data = [
   },
   {
     id: uniqueId("link-"),
-    name: "Email",
-    url: "mailto:yao.kaiser@protonmail.com",
-    icon: "fas fa-atom",
-    fromColor: "gray-700",
-    toColor: "gray-800"
+    name: "Mastodon",
+    url: "https://yao.earth/mastodon",
+    icon: "fab fa-mastodon",
+    fromColor: "blue-400",
+    toColor: "blue-700"
   },
   {
     id: uniqueId("link-"),
@@ -46,12 +46,6 @@ const data = [
     name: "Blog",
     url: "https://blog.yao.earth",   
     icon: "fas fa-rss",
-  },
-  {
-    id: uniqueId("link-"),
-    name: "DTube",
-    url: "https://d.tube/#!/c/namaliboy33",   
-    icon: "fas fa-video",
   },
   {
     id: uniqueId("link-"),

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Header title="Über mich" description="Ich stelle mich vor."></Header>
+        <Header title="About me" description="Introducing myself."></Header>
         <Vorstellung />
         <Skills id="skills" />
         <Tunes id="tunes" />
@@ -15,7 +15,7 @@ import Skills from "../components/Skills"
 import Tunes from "../components/Tunes"
 export default {
     name: 'About',
-    title: 'Über mich',
+    title: 'About me',
     components: {
         Header,
         Vorstellung,

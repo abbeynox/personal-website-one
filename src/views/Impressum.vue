@@ -10,8 +10,8 @@
             </div>  
 
             <div class="flex flex-col w-full mb-10 text-center">
-                <h1 class="text-2xl font-bold text-white sm:text-2xl title-font">Kontakt</h1>
-                <p class="text-2xl text-white"><i class="fas fa-envelope"></i> yao@yao.earth</p>
+                <h1 class="text-2xl font-bold text-white sm:text-2xl title-font">Contact</h1>
+                <p class="text-2xl text-white"><i class="fas fa-envelope"></i> yao.kaiser@proton.me</p>
             </div>  
         </div>
         
@@ -22,7 +22,7 @@
 import Header from "../components/Header"
 export default {
     name: 'Impressum',
-    title: 'Impressum',
+    title: 'Imprint',
     components: {
         Header
     }

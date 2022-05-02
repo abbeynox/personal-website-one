@@ -4,7 +4,7 @@
       <Header
         title="Hey,"
         description="I'm Yao."
-        text="I am a 17 year old software developer apprentice from Switzerland. Currently I focus on frontend development with technologies like React. On this website you can learn more about my skills, projects and free time."
+        :text="'I am a ' + age + ' year old software developer apprentice from Switzerland. Currently I focus on frontend development with technologies like React. On this website you can learn more about my skills, projects and free time.'"
       ></Header>
       <div class="container px-5 pb-1 mx-auto -mt-10">
         <div data-fade="6" class="flex flex-wrap gap-4 gap-y-2">
@@ -142,6 +142,12 @@
 
 <script>
 import Header from "../components/Header";
+import day from "dayjs";
+
+const birthday = day("6 June 2004");
+const age = Math.abs(
+  new Date(Date.now() - birthday.toDate().getTime()).getUTCFullYear() - 1970
+);
 
 export default {
   name: "Hero",
@@ -155,6 +161,7 @@ export default {
   },
   created() {
     setTimeout(() => (this.redirectInfo = false), 2000);
+    this.age = age;
   },
 };
 </script>

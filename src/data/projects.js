@@ -5,33 +5,33 @@ const data = [
     id: uniqueId("project-"),
     name: "yao.earth",
     description:
-      "Auch diese Website gehört zu meinen Projekten. Geschrieben wurde sie mit Vue.js und Tailwind CSS.",
+      "This website is also one of my projects. It was written with Vue.js and Tailwind CSS.",
     icon: "fas fa-globe-americas",
   },
   {
     id: uniqueId("project-"),
-    name: "Passwort Generator",
-    description: "Auf dieser Website kann man ein sicheres Passwort generieren lassen. Völlig kostenlos und unkompliziert.",
-    url: "https://passwort.ywk.ch",
+    name: "Password Generator",
+    description: "On this website you can generate a secure password. Completely free of charge and uncomplicated.",
+    status: "No longer supported",
     icon: "fas fa-key",
   },
     {
     id: uniqueId("project-"),
     name: "YWK Cloud",
-    description: "Auf Plesk habe ich mittels NextCloud einen Cloud Server aufgesetzt. Auf dieser zentralen Stelle werden auch alle Projektdateien gespeichert und Dokumente wie mein CV geteilt.",
+    description: "I have set up a cloud server on Plesk using NextCloud. On this central place all project files are also stored and documents like my CV are shared.",
     url: "https://cloud.ywk.ch",
     icon: "fas fa-cloud",
   },
   {
     id: uniqueId("project-"),
     name: "SakumoBot",
-    description: "Ein Discord Administrations- und Nützlichkeits-Bot. Programmiert mit Python und dem discord.py Framework.",
+    description: "A Discord administration and utility bot. Programmed with Python and the discord.py framework. It was my first bigger project.",
     icon: "fab fa-discord",
   },
   {
     id: uniqueId("project-"),
     name: "Rlnk.be",
-    description: "Eine URL Shortener Website, geschrieben mit Node.js und Bootstrap für das User Interface.",
+    description: "An URL shortener website written with Node.js and Bootstrap for the user interface.",
     url: "https://rlnk.be",
     icon: "fas fa-link",
   },
@@ -39,7 +39,7 @@ const data = [
     id: uniqueId("project-"),
     name: "IntraGalaxia",
     description:
-      "Starte deine Rakete und schütze die Erde vor Meteoridenschwärme. Ein Spiel für iOS und Android.",
+      "Launch your rocket and protect the earth from meteoroid swarms. A game for iOS and Android.",
     url: "https://intragalaxia.com",
     icon: "fas fa-rocket",
   },
@@ -47,23 +47,15 @@ const data = [
     id: uniqueId("project"),
     name: "Flightticket Generator",
     description:
-      "Auf dieser Website kann man fiktive Flugtickets mit PDF417 Codes generieren.",
+      "This website allows you to generate fictitious airline tickets with PDF417 codes.",
     icon: "fas fa-plane",
     url: "https://github.com/kaiseryao/pdf417-generator"
   },
   {
     id: uniqueId("project"),
-    name: "Verben Trainer (Verbify)",
+    name: "More Projects",
     description:
-      "Eine Plattform, auf der man französische Verbformen üben kann.",
-    icon: "fas fa-language",
-    status: "In Entwicklung",
-  },
-  {
-    id: uniqueId("project"),
-    name: "Mehr Projekte",
-    description:
-      "Weitere Projekte sind auf meinem Github Account aufgeführt",
+      "More projects are listed on my Github account.",
     url: "https://yao.earth/github"
   },
 ];

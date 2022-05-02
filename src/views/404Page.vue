@@ -3,15 +3,15 @@
     <Header
       v-show="this.$route.query.error == undefined"
       title="404 - Not found"
-      description="Diese Seite wurde nicht gefunden."
-      text="Du befindest dich an einem seltsamen Ort. Hast du dich eventuell vertippt? Überprüfe die URL und versuche es nochmals."
+      description="This page was not found."
+      text="You are in a strange place. Maybe you mistyped the URL? Check the URL and try again. P.S. And while you're at it, come on over to the #Fediverse and check out Mastodon! Read more at mastodon.social"
     ></Header>
 
     <Header
       v-show="this.$route.query.error !== undefined && this.errorInfo == true"
       id="errorInfo"
       title="404 - Not found"
-      description="Diese Seite wurde nicht gefunden."
+      description="This page was not found."
       :text="this.$route.query.error"
     ></Header>
   </div>
@@ -22,7 +22,7 @@ import Header from "../components/Header";
 
 export default {
   name: "404Page",
-  title: "404 - Nicht gefunden",
+  title: "404 - Not found",
   components: {
     Header,
   },

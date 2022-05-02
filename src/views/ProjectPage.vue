@@ -1,6 +1,6 @@
 <template>
     <section class="text-gray-400 bg-black body-font">
-        <Header title="Projekte" description="Einige Projekte, die ich gemacht habe." text="Hier sind einige meiner Coding-Projekte zu sehen. Betriebsinterne Projekte sind hier nicht aufgelistet. Zurzeit arbeite ich mit Herzblut an einer sogenannten ShortCut Practicer Website, die mit TypeScript und React geschrieben wird. Auf GitHub sind einige weitere Projekte zu finden."></Header>
+        <Header title="Projects" description="Some projects I've done." text="Here you can see some of my coding projects. Internal projects are not listed here. Currently I'm not working on any major projects privately. On GitHub you can find some more projects."></Header>
         <div>
             <div v-for="project in projects" v-bind:key="project.id"> <!-- Rendert die Projects Liste basierend auf einen Array -->
                 <ProjectCard :name="project.name" :url="project.url" :description="project.description" :icon="project.icon" :status="project.status"></ProjectCard>
@@ -19,7 +19,7 @@ import projects from '../data/projects.js'
 
     export default {
         name: 'Project',
-        title: 'Projekte',
+        title: 'Projects',
         components: {
                 Header,
                 ProjectCard

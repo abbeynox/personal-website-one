@@ -83,6 +83,11 @@ const data = [
     redirectUri: 'https://threema.id/ZV2A3CMD',
   },
   {
+    path: '/mastodon',
+    component: () => import('../views/RedirectPage.vue'),
+    redirectUri: 'https://mastodon.lol/@yao',
+  },
+  {
     path: '*', // Nimmt jedes andere Verzeichnis, welches nicht definiert ist. 
     name: '404',
     component: () => import('../views/404Page.vue')

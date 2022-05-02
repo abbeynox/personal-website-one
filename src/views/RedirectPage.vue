@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Header title="Einen Moment" description="Weiterleitung erfolgt."></Header>
+        <Header title="One moment" description="Forwarding occurs."></Header>
         <LoadingBar></LoadingBar>
     </div>
 </template>
@@ -13,7 +13,7 @@ import routes from "../data/routes.js"
 
 export default {
     name: 'Weiterleitung',
-    title: 'Weiterleiten...',
+    title: 'Redirect...',
     components: {
         Header,
         LoadingBar
@@ -32,8 +32,8 @@ export default {
                 break;
             }
             else {
-                console.log("Bei der Weiterleitung ist ein Fehler aufgetreten!");
-                setTimeout( () => location.href = "/404?error=Bei der Weiterleitung ist ein Fehler aufgetreten.", 1000)
+                console.log("An error occurred during forwarding!");
+                setTimeout( () => location.href = "/404?error=An error occurred during forwarding!", 1000)
             }
         }
         // GET Path: this.$router.currentRoute
