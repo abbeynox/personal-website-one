@@ -1,5 +1,5 @@
 <template>
-    <div class="relative h-auto my-3 tracking-wide bg-transparent border-2 border-gray-800 rounded-lg md:my-5 animate-pulse md:mx-1 justify-items-stretch md:mb-14 hover:bg-indigo-500 hover:bg-opacity-10 hover:shadow-lg hover:border-indigo-500">
+    <div class="relative h-auto my-3 tracking-wide bg-transparent border-2 border-gray-800 rounded-lg md:my-5 animate-pulse md:mx-1 justify-items-stretch md:mb-14 hover:bg-indigo-500 hover:bg-opacity-10 hover:shadow-lg hover:border-indigo-500 p-3">
       <a v-if="link != null" :href="link" target="_blank">
         <div class="absolute w-1 h-20 bg-orange-600 small-banner rounded-tl-md"></div>
         <div class="items-center">
