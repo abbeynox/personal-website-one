@@ -58,11 +58,6 @@
     },
     "rules": {}
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ],
   "description": "```\r npm install\r ```",
   "main": "babel.config.js",
   "repository": {
@@ -74,5 +69,17 @@
   "bugs": {
     "url": "https://github.com/kaiseryao/yao-earth-vue/issues"
   },
-  "homepage": "https://github.com/kaiseryao/yao-earth-vue#readme"
+  "homepage": "https://github.com/kaiseryao/yao-earth-vue#readme",
+  "browserslist": {
+    "production": [
+       ">0.2%",
+       "not dead",
+       "not op_mini all"
+     ],
+     "development": [
+       "last 1 chrome version",
+       "last 1 firefox version",
+       "last 1 safari version"
+     ]
+ }
 }

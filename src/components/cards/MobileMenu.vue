@@ -30,7 +30,7 @@
             >
               <span class="block px-1 pt-1 pb-1">
                 <i class="block pt-1 mb-1 text-2xl fas fa-paint-roller"></i>
-                <span class="block pb-2 text-xs">Projekte</span>
+                <span class="block pb-2 text-xs">Projects</span>
                 <span
                   class="block w-5 h-1 mx-auto rounded-full hover:bg-purple-500"
                 ></span>
@@ -44,7 +44,7 @@
             >
               <span class="block px-1 pt-1 pb-1">
                 <i class="block pt-1 mb-1 text-2xl fas fa-user-circle"></i>
-                <span class="block pb-2 text-xs">Über mich</span>
+                <span class="block pb-2 text-xs">About me</span>
                 <span
                   class="block w-5 h-1 mx-auto rounded-full hover:bg-purple-500"
                 ></span>
@@ -72,7 +72,7 @@
             >
               <span class="block px-1 pt-1 pb-1">
                 <i class="block pt-1 mb-1 text-2xl far fa-calendar-alt"></i>
-                <span class="block pb-2 text-xs">Stundenplan</span>
+                <span class="block pb-2 text-xs">Timetable</span>
                 <span
                   class="block w-5 h-1 mx-auto rounded-full hover:bg-purple-500"
                 ></span>
@@ -85,8 +85,8 @@
               class="flex items-end justify-center w-full px-4 pt-2 mx-auto text-center text-gray-400 hover:text-purple-500"
             >
               <span class="block px-1 pt-1 pb-1">
-                <i class="block pt-1 mb-1 text-2xl fas fa-comment-dots"></i>
-                <span class="block pb-2 text-xs">Blog</span>
+                <i class="block pt-1 mb-1 text-2xl fab fa-mastodon"></i>
+                <span class="block pb-2 text-xs">Mastodon</span>
                 <span
                   class="block w-5 h-1 mx-auto rounded-full hover:bg-purple-500"
                 ></span>
