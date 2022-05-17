@@ -81,7 +81,7 @@
           </div>
           <div>
             <a
-              href="https://blog.yao.earth"
+              href="/mastodon"
               class="flex items-end justify-center w-full px-4 pt-2 mx-auto text-center text-gray-400 hover:text-purple-500"
             >
               <span class="block px-1 pt-1 pb-1">

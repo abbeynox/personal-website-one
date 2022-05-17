@@ -27,6 +27,14 @@ const data = [
   },
   {
     id: uniqueId("link-"),
+    name: "Pixelfed",
+    url: "https://yao.earth/pixelfed",
+    icon: "fas fa-camera",
+    fromColor: "blue-400",
+    toColor: "blue-700"
+  },
+  {
+    id: uniqueId("link-"),
     name: "Twitter",
     url: "https://yao.earth/twitter",
     icon: "fab fa-twitter",
@@ -40,12 +48,6 @@ const data = [
     icon: "fab fa-linkedin",
     fromColor: "blue-600",
     toColor: "blue-800"
-  },
-  {
-    id: uniqueId("link-"),
-    name: "Blog",
-    url: "https://blog.yao.earth",   
-    icon: "fas fa-rss",
   },
   {
     id: uniqueId("link-"),

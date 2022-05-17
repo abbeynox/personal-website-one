@@ -16,11 +16,6 @@ const data = [
     component: () => import('../views/AboutPage.vue')
   },
   {
-    path: '/impressum',
-    name: 'impressum',
-    component: () => import('../views/Impressum.vue')
-  },
-  {
     path: '/education/periodensystem',
     name: 'periodensystem',
     component: () => import('../views/files/Periodensystem.vue'),
@@ -56,12 +51,6 @@ const data = [
     alias: '/tw'
   },
   {
-    path: '/discord',
-    alias: '/dc',
-    component: () => import('../views/RedirectPage.vue'),
-    redirectUri: 'https://discord.com/users/649332192119357460',
-  },
-  {
     path: '/quizlet',
     component: () => import('../views/RedirectPage.vue'),
     redirectUri: 'https://quizlet.com/class/19641601/',
@@ -86,6 +75,16 @@ const data = [
     path: '/mastodon',
     component: () => import('../views/RedirectPage.vue'),
     redirectUri: 'https://mastodon.lol/@yao',
+  },
+  {
+    path: '/pixelfed',
+    component: () => import('../views/RedirectPage.vue'),
+    redirectUri: 'https://pixelfed.social/yao',
+  },
+  {
+    path: '/matrix',
+    component: () => import('../views/RedirectPage.vue'),
+    redirectUri: 'https://matrix.to/#/@kaiseryao:matrix.org',
   },
   {
     path: '*', // Nimmt jedes andere Verzeichnis, welches nicht definiert ist. 

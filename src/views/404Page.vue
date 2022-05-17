@@ -4,7 +4,7 @@
       v-show="this.$route.query.error == undefined"
       title="404 - Not found"
       description="This page was not found."
-      text="You are in a strange place. Maybe you mistyped the URL? Check the URL and try again. P.S. And while you're at it, come on over to the #Fediverse and check out Mastodon! Read more at mastodon.social"
+      text="You are in a strange place. Maybe you mistyped the URL? Check the URL and try again."
     ></Header>
 
     <Header
