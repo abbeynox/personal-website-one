@@ -1,8 +1,17 @@
 <template>
   <div id="app">
     <main class="mx-0 text-gray-400 bg-black md:mx-56">
+      <div
+        class="
+          h-2
+          bg-gradient-to-tr
+          from-primary-200
+          via-primary-300
+          to-primary-400
+        "
+      ></div>
       <TopNav v-show="$route.name !== 'links'"></TopNav>
-      <MobileMenu/>
+      <MobileMenu />
 
       <!-- Fügt Navigationsleiste ein -->
       <transition name="view" appear>
@@ -27,39 +36,9 @@ export default {
   components: {
     TopNav,
     Footer,
-    MobileMenu
+    MobileMenu,
   },
-  mounted() {
-
-  },
-
-  /*methods: {
-    init() {
-      console.log(this.$route); //should return object
-      console.log(this.$route.params); //should return object
-      console.log(this.$route.params.id); //should return id of URL param
-    },
-    scrollTo() {
-      if (this.$route.query.scrollto != undefined) {
-        const scrollPage = document.getElementById(this.$route.query.scrollto);
-        if (scrollPage != null) {
-          scrollPage.ScrollIntoView({ behavior: "smooth" });
-          console.log(
-            "Diese Seite wird zu " +
-              this.$route.query.scrollto +
-              " heruntergescrollt."
-          );
-        } else {
-          console.log(
-            "Das Query stimmt gar nicht mit der ID des Komponenten überein."
-          );
-          this.$router.replace("/");
-        }
-      } else {
-        console.log("Es konnte kein Query gefunden werden.");
-      }
-    },
-  },*/
+  mounted() {},
 };
 </script>
 

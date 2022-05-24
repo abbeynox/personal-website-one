@@ -2,6 +2,7 @@
     <div>
         <Header title="One moment" description="Forwarding occurs."></Header>
         <LoadingBar></LoadingBar>
+        <RainbowLoader></RainbowLoader>
     </div>
 </template>
 
@@ -10,14 +11,17 @@
 import Header from "../components/Header"
 import LoadingBar from "../components/lib/LoadingBar"
 import routes from "../data/routes.js"
+import RainbowLoader from "../components/lib/RainbowLoader.vue";
+
 
 export default {
     name: 'Weiterleitung',
     title: 'Redirect...',
     components: {
-        Header,
-        LoadingBar
-    },
+    Header,
+    LoadingBar,
+    RainbowLoader
+},
     data: function() {
         return {
             routes: routes,
@@ -36,8 +40,7 @@ export default {
                 setTimeout( () => location.href = "/404?error=An error occurred during forwarding!", 1000)
             }
         }
-        // GET Path: this.$router.currentRoute
-        //setTimeout( () => location.href = 'https://google.com', 2000)
+
     }
 }
 </script>

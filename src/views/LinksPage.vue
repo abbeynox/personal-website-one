@@ -3,7 +3,7 @@
         <div class="container content-center px-5 pt-24 pb-1 mx-auto">
             
             <div class="flex flex-col content-center w-full text-center md:m-1">
-                <img class="w-40 h-40 p-1 m-5 mx-auto text-white bg-purple-500 rounded-full" alt="hero" src="../assets/YaoDevUkraine.png">
+                <img class="w-40 h-40 p-1 m-5 mx-auto text-white bg-purple-500 rounded-full" alt="hero" src="../assets/YaoDev.png">
                 <h1 class="mb-4 text-6xl font-bold text-white sm:text-6xl title-font">Yao Kaiser</h1>
                 <Notification title="Follow my Fediverse accounts" description="I'm also on Mastodon now and would love to see you there too. Register today and join the #Fediverse." icon="fab fa-mastodon" link="https://blog.yao.earth/das-fediverse-bessere-alternative-zu-herkommlichen-social-media-apps"></Notification>
             </div>
