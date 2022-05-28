@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <RainbowBar />
     <main class="mx-0 text-gray-400 bg-black md:mx-56">
       <div
         class="
@@ -28,6 +29,7 @@
 import TopNav from "./components/Navbar";
 import Footer from "./components/Footer";
 import MobileMenu from "./components/cards/MobileMenu";
+import RainbowBar from "./components/lib/pride/RainbowBar.vue";
 
 export default {
   // Registriert Komponente
@@ -37,6 +39,7 @@ export default {
     TopNav,
     Footer,
     MobileMenu,
+    RainbowBar
   },
   mounted() {},
 };

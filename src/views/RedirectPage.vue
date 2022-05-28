@@ -2,7 +2,6 @@
     <div>
         <Header title="One moment" description="Forwarding occurs."></Header>
         <LoadingBar></LoadingBar>
-        <RainbowLoader></RainbowLoader>
     </div>
 </template>
 
@@ -11,7 +10,6 @@
 import Header from "../components/Header"
 import LoadingBar from "../components/lib/LoadingBar"
 import routes from "../data/routes.js"
-import RainbowLoader from "../components/lib/RainbowLoader.vue";
 
 
 export default {
@@ -19,8 +17,7 @@ export default {
     title: 'Redirect...',
     components: {
     Header,
-    LoadingBar,
-    RainbowLoader
+    LoadingBar
 },
     data: function() {
         return {
