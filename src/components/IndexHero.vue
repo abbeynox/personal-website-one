@@ -11,7 +11,7 @@
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://cloud.ywk.ch/s/cv"
+            href="https://docs.yaokaiser.dev"
             class="
               inline-flex
               items-center
@@ -51,7 +51,7 @@
               <path
                 d="M431.15 477.75A64.11 64.11 0 01384 416V44a12 12 0 00-12-12H44a12 12 0 00-12 12v380a56 56 0 0056 56h342.85a1.14 1.14 0 00.3-2.25zM96 208v-96h96v96zm224 192H96v-32h224zm0-64H96v-32h224zm0-64H96v-32h224zm0-64h-96v-32h96zm0-64h-96v-32h96z"
               ></path></svg
-            ><span>CV</span></a
+            ><span>Development Docs</span></a
           ><a
             target="_blank"
             rel="me noopener noreferrer"
