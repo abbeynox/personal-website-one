@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  web:
+    build: .
+    volumes:
+      - ./:/app
+    ports:
+      - 5893:8080
+    command: npm run dev
