@@ -1,23 +1,13 @@
-# Use a node base image
-FROM node:14
-
-# Set the working directory
+# build stage
+FROM node:lts-alpine as build-stage
 WORKDIR /app
-
-# Copy the package.json and package-lock.json files
 COPY package*.json ./
-
-# Install the dependencies
 RUN npm install
-
-# Copy the rest of the application files
 COPY . .
-
-# Build the Vue.js application
 RUN npm run build
 
-# Expose the container's listening port
-EXPOSE 8111
-
-# Start the Vue.js application
-CMD ["npm", "start"]
+# production stage
+FROM nginx:stable-alpine as production-stage
+COPY --from=build-stage /app/dist /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
