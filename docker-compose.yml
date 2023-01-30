@@ -6,7 +6,7 @@ services:
     build:
       dockerfile: Dockerfile
     volumes:
-      - ./:/app
+      - ./usr/app:/app
       - /app/node_modules
     expose:
       - "80"
