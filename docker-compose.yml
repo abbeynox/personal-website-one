@@ -1,10 +1,14 @@
 version: '3.4'
-
 services:
   web:
     build: .
-    volumes:
-      - ./:/app
     ports:
-      - 5893:8080
-    command: npm run dev
+      - 8111:8080
+  node:
+    image: node:14
+    working_dir: /app
+    command: npm start
+    ports:
+      - 3111:3000
+    volumes:
+      - .:/app
