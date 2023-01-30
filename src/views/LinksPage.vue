@@ -5,7 +5,7 @@
             <div class="flex flex-col content-center w-full text-center md:m-1">
                 <img class="w-40 h-40 p-1 m-5 mx-auto text-white bg-purple-500 rounded-full" alt="hero" src="../assets/YaoDev.png">
                 <h1 class="mb-4 text-6xl font-bold text-white sm:text-6xl title-font">Yao Kaiser</h1>
-                <Notification title="Happy Pride 2022!" description="Pride Month is a month dedicated to celebrating the LGBTQ+ communities all around the world, to show that love is love and all are welcome." icon="fas fa-heart"></Notification>
+                <Notification title="You are awesome!" description="Thank you for your support!" icon="fas fa-heart"></Notification>
             </div>
         </div>
 

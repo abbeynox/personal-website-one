@@ -16,12 +16,6 @@ const data = [
     component: () => import('../views/AboutPage.vue')
   },
   {
-    path: '/education/periodensystem',
-    name: 'periodensystem',
-    component: () => import('../views/files/Periodensystem.vue'),
-    alias: '/files/periodensystem'
-  },
-  {
     path: '/education/stundenplan',
     name: 'stundenplan',
     component: () => import('../views/Stundenplan.vue'),
@@ -77,9 +71,9 @@ const data = [
     redirectUri: 'https://mastodon.lol/@yao',
   },
   {
-    path: '/pixelfed',
+    path: '/discord',
     component: () => import('../views/RedirectPage.vue'),
-    redirectUri: 'https://pixelfed.social/yao',
+    redirectUri: 'discord.com/users/649332192119357460',
   },
   {
     path: '/matrix',
