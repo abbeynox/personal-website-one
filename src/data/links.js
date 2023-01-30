@@ -4,7 +4,7 @@ const data = [
   {
     id: uniqueId("link-"),
     name: "My Website",
-    url: "https://yao.earth",
+    url: "/",
     icon: "fas fa-globe-americas",
     fromColor: "purple-600",
     toColor: "purple-900",
@@ -20,23 +20,23 @@ const data = [
   {
     id: uniqueId("link-"),
     name: "Mastodon",
-    url: "https://yao.earth/mastodon",
+    url: "/mastodon",
     icon: "fab fa-mastodon",
     fromColor: "blue-400",
     toColor: "blue-700"
   },
   {
     id: uniqueId("link-"),
-    name: "Pixelfed",
-    url: "https://yao.earth/pixelfed",
-    icon: "fas fa-camera",
+    name: "Discord",
+    url: "/discord",
+    icon: "fab fa-discord",
     fromColor: "blue-400",
     toColor: "blue-700"
   },
   {
     id: uniqueId("link-"),
     name: "Twitter",
-    url: "https://yao.earth/twitter",
+    url: "/twitter",
     icon: "fab fa-twitter",
     fromColor: "blue-400",
     toColor: "blue-700"
@@ -44,7 +44,7 @@ const data = [
   {
     id: uniqueId("link-"),
     name: "Linkedin",
-    url: "https://yao.earth/linkedin",
+    url: "/linkedin",
     icon: "fab fa-linkedin",
     fromColor: "blue-600",
     toColor: "blue-800"
@@ -52,7 +52,7 @@ const data = [
   {
     id: uniqueId("link-"),
     name: "GitHub",
-    url: "https://yao.earth/github",
+    url: "/github",
     icon: "fab fa-github",
     fromColor: "gray-800",
     toColor: "gray-900"
