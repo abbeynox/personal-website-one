@@ -6,7 +6,5 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    volumes:
-      - ./dist:/usr/share/nginx/html
     ports:
       - "8081:80"
