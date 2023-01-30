@@ -1,10 +1,16 @@
-version: '3.4'
+version: "3.7"
 
 services:
-  web:
-    build: .
+  frontend:
+    container_name: frontend
+    restart: always
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
     volumes:
-      - ./:/app
+      - ./frontend:/app
+      - /app/node_modules
+    expose:
+      - "80"
     ports:
-      - 5893:8080
-    command: npm run dev
+      - "8081:8081"
