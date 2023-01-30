@@ -1,12 +1,10 @@
-
 version: '3.4'
 
 services:
   web:
-    restart: unless-stopped
     build: .
     volumes:
       - ./:/app
     ports:
-      - 8111:80
-    command: npm run serve
+      - 5893:8080
+    command: npm run dev
