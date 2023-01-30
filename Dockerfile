@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Expose the container's listening port
-EXPOSE 8080
+EXPOSE 8111
 
 # Start the Vue.js application
 CMD ["npm", "start"]
