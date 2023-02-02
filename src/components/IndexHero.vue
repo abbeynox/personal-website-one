@@ -4,7 +4,7 @@
       <Header
         title="Hey,"
         description="I'm Yao."
-        :text="'I am a ' + age + ' year old software developer apprentice from Switzerland. Currently I focus on frontend development with technologies like React. On this website you can learn more about my skills, projects and free time.'"
+        :text="'I am a ' + age + ' year old software developer apprentice from Switzerland. Currently I focus on backend development with Java Spring Boot or Python Flask. On this website you can learn more about my skills, projects and free time.'"
       ></Header>
       <div class="container px-5 pb-1 mx-auto -mt-10">
         <div data-fade="6" class="flex flex-wrap gap-4 gap-y-2">
