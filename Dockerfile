@@ -1,14 +1,13 @@
+# build stage
 FROM node:16 as build-stage
-
-RUN apt update -y
-RUN apt install git -y
-
+RUN mkdir -p /usr/app
 WORKDIR /var/app
-COPY . .
-
+COPY package*.json ./
 RUN npm install
+COPY . .
 RUN npm run build
 
+# production stage
 FROM nginx:latest as production-stage
 COPY --from=build-stage /var/app/dist /usr/share/nginx/html/
 EXPOSE 80
