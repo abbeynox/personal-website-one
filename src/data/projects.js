@@ -10,17 +10,11 @@ const data = [
   },
   {
     id: uniqueId("project-"),
-    name: "Password Generator",
-    description: "On this website you can generate a secure password. Completely free of charge and uncomplicated.",
-    status: "No longer supported",
-    icon: "fas fa-key",
-  },
-    {
-    id: uniqueId("project-"),
-    name: "YWK Cloud",
-    description: "I have set up a cloud server on Plesk using NextCloud. On this central place all project files are also stored and documents like my CV are shared.",
-    url: "https://cloud.ywk.ch",
-    icon: "fas fa-cloud",
+    name: "Zork of The Wild",
+    description: "Console Game with Java, based on 'The Legends of Zelda'-Series from Nintendo.",
+    status: "NEW",
+    url: "https://github.com/kaiseryao/ZorkOfTheWild",
+    icon: "fas fa-dice",
   },
   {
     id: uniqueId("project-"),
@@ -37,11 +31,11 @@ const data = [
   },
   {
     id: uniqueId("project-"),
-    name: "IntraGalaxia",
+    name: "TrainQuiz",
     description:
-      "Launch your rocket and protect the earth from meteoroid swarms. A game for iOS and Android.",
-    url: "https://intragalaxia.com",
-    icon: "fas fa-rocket",
+      "Random Questions about trains, based on Java Spring Boot API and MongoDB.",
+    url: "https://github.com/kaiseryao/trainquiz-backend",
+    icon: "fas fa-train",
   },
   {
     id: uniqueId("project"),
