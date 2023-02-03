@@ -5,6 +5,5 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: yao-dev
     ports:
       - "8081:80"
