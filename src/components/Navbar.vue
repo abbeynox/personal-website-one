@@ -28,7 +28,7 @@
             src="../assets/YaoDev.png"
           /> 
           
-          <span class="ml-3 text-xl">Yao.Earth</span>
+          <span class="ml-3 text-xl">Yao.Dev</span>
         </a>
 
         <nav
