@@ -27,22 +27,6 @@ const data = [
   },
   {
     id: uniqueId("link-"),
-    name: "Discord",
-    url: "/discord",
-    icon: "fab fa-discord",
-    fromColor: "blue-400",
-    toColor: "blue-700"
-  },
-  {
-    id: uniqueId("link-"),
-    name: "Twitter",
-    url: "/twitter",
-    icon: "fab fa-twitter",
-    fromColor: "blue-400",
-    toColor: "blue-700"
-  },
-  {
-    id: uniqueId("link-"),
     name: "Linkedin",
     url: "/linkedin",
     icon: "fab fa-linkedin",
