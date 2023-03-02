@@ -40,7 +40,7 @@ const data = [
       endTime: "11:05",
       room: "A312",
       teacher: "BuLa",
-      test: true
+      test: false
     },
     {
       id: uniqueId("subject-"),
@@ -50,7 +50,7 @@ const data = [
       endTime: "11:55",
       room: "A312",
       teacher: "BuLa",
-      test: true
+      test: false
     },
     {
       id: uniqueId("subject-"),
@@ -100,6 +100,16 @@ const data = [
       endTime: "16:20",
       room: "A312",
       teacher: "FiEs",
+      test: false
+    },
+    {
+      id: uniqueId("subject-"),
+      day: "Freitag",
+      name: "Mathe Workshop",
+      startTime: "16:25",
+      endTime: "17:10",
+      room: "A312",
+      teacher: "KlJü",
       test: false
     }
 ]; 

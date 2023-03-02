@@ -93,8 +93,8 @@ const data = [
         day: "Donnerstag",
         name: "M254",
         subName: "Geschäftsprozesse im eigenen Berufsumfeld beschreiben",
-        startTime: "15:35",
-        endTime: "16:20",
+        startTime: "15:25",
+        endTime: "16:10",
         room: "1.2",
         teacher: "HOLU",
         test: false
@@ -104,8 +104,8 @@ const data = [
         day: "Donnerstag",
         name: "M254",
         subName: "Geschäftsprozesse im eigenen Berufsumfeld beschreiben",
-        startTime: "16:25",
-        endTime: "17:10",
+        startTime: "16:15",
+        endTime: "17:00",
         room: "1.2",
         teacher: "HOLU",
         test: false
