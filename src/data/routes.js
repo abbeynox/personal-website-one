@@ -39,26 +39,10 @@ const data = [
     alias: ['/li']
   },
   {
-    path: '/twitter',
-    component: () => import('../views/RedirectPage.vue'),
-    redirectUri: 'http://www.twitter.com/KaiserYao',
-    alias: '/tw'
-  },
-  {
     path: '/quizlet',
     component: () => import('../views/RedirectPage.vue'),
     redirectUri: 'https://quizlet.com/class/19641601/',
     alias: '/ql'
-  },
-  {
-    path: '/cv',
-    component: () => import('../views/RedirectPage.vue'),
-    redirectUri: 'https://cloud.ywk.ch/s/cv',
-  },
-  {
-    path: '/cloud',
-    component: () => import('../views/RedirectPage.vue'),
-    redirectUri: 'https://cloud.ywk.ch',
   },
   {
     path: '/threema',
@@ -68,12 +52,7 @@ const data = [
   {
     path: '/mastodon',
     component: () => import('../views/RedirectPage.vue'),
-    redirectUri: 'https://mastodon.lol/@yao',
-  },
-  {
-    path: '/discord',
-    component: () => import('../views/RedirectPage.vue'),
-    redirectUri: 'discord.com/users/649332192119357460',
+    redirectUri: 'https://mastodon.social/@abbeynox',
   },
   {
     path: '/matrix',
