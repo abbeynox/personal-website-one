@@ -3,12 +3,6 @@ import uniqueId from "lodash.uniqueid";
 const data = [
   {
     id: uniqueId("social-"),
-    name: "Twitter",
-    url: "https://yao.earth/twitter",
-    icon: "fab fa-twitter",
-  },
-  {
-    id: uniqueId("social-"),
     name: "Mastodon",
     url: "https://yao.earth/mastodon",
     icon: "fab fa-mastodon",
