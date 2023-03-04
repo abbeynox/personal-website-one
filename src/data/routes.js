@@ -60,6 +60,11 @@ const data = [
     redirectUri: 'https://matrix.to/#/@kaiseryao:matrix.org',
   },
   {
+    path: '/pronouns',
+    component: () => import('../views/RedirectPage.vue'),
+    redirectUri: 'https://de.pronouns.page/@abbeynox'
+  },
+  {
     path: '*', // Nimmt jedes andere Verzeichnis, welches nicht definiert ist. 
     name: '404',
     component: () => import('../views/404Page.vue')
