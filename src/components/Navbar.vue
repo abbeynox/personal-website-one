@@ -24,8 +24,7 @@
         >
           <img
             class="w-10 h-10 text-white p-0.5 bg-purple-500 rounded-full"
-            alt="hero"
-            src="../assets/YaoDev.png"
+            src="https://avatars.githubusercontent.com/u/74461477"
           /> 
           
           <span class="ml-3 text-xl">Yao.Earth</span>
