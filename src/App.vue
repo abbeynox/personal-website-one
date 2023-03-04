@@ -26,7 +26,7 @@
 </template>
 
 <script type="text/javascript">
-import TopNav from "./components/Navbar";
+import TopNav from "./components/nav/Navbar.vue";
 import Footer from "./components/Footer";
 import MobileMenu from "./components/cards/MobileMenu";
 import RainbowBar from "./components/lib/pride/RainbowBar.vue";

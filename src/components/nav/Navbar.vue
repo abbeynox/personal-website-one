@@ -43,9 +43,7 @@
           <router-link class="mr-5 hover:text-white" to="projects"
             >projects</router-link
           >
-          <router-link class="mr-5 hover:text-white" to="about"
-            >about me</router-link
-          >
+          <NavDropdown class="mr-5"></NavDropdown>
           <router-link class="mr-5 hover:text-white" to="links"
             >links</router-link
           >
@@ -55,12 +53,18 @@
   </div>
 </template>
 
+
 <script>
-import AnimatedRainbow from './lib/pride/AnimatedRainbow.vue';
+import NavDropdown from './NavDropdown.vue';
 export default {
   name: "TopNav",
   components: {
-    AnimatedRainbow
+    NavDropdown
   },
+  data() {
+    return {
+      showSubNav: false
+    }
+  }
 };
 </script>
