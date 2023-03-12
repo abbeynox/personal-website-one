@@ -8,13 +8,14 @@
           src="https://avatars.githubusercontent.com/u/74461477"
         /> 
         <h1 class="mb-4 text-6xl font-bold text-white sm:text-6xl title-font">
-          Yao Kaiser
+          {{ name }}
         </h1>
         <p class="text-xl text-purple-500 font-semibold mb-4">
-          <a
+          <a v-if="$domain === 'abbeynox.com'"
             class="inline-block border-b-2 border-purple-500 hover:text-gray-300 hover:border-opacity-0 transition-all duration-500" href="/pronouns" target="_blank"
-            >he/him</a
+            >he/they</a
           >
+          <span v-else class="inline-block border-b-2 border-purple-500">he/him</span>
         </p>
       </div>
     </div>
@@ -47,9 +48,23 @@ export default {
       links: links,
     };
   },
+  created() {
+    this.getInfo();
+    this.name = name;
+  },
   components: {
     LinkCard,
     Notification,
+  },
+  methods: {
+    getInfo() {
+      if (this.$domain == "abbeynox.com") {
+        name = "Abbey Nox";
+      } else {
+        name = "Yao Kaiser";
+      }
+      return this.name;
+    },
   },
 };
 </script>
