@@ -27,7 +27,8 @@
             src="https://avatars.githubusercontent.com/u/74461477"
           /> 
           
-          <span class="ml-3 text-xl">Yao.Earth</span>
+          <span v-if="$domain === 'abbeynox.com'" class="ml-3 text-xl">Abbey Nox</span>
+          <span v-else class="ml-3 text-xl">Yao.Earth</span>
         </a>
 
         <nav
@@ -45,9 +46,6 @@
           >
           <router-link class="mr-5 hover:text-white" to="about"
             >about me</router-link
-          >
-          <router-link class="mr-5 hover:text-white" to="links"
-            >links</router-link
           >
         </nav>
       </div>

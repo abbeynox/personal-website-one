@@ -43,14 +43,14 @@
   "main": "babel.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaiseryao/yao-earth-vue.git"
+    "url": "git+https://github.com/abbeynox/yao-earth-vue.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kaiseryao/yao-earth-vue/issues"
+    "url": "https://github.com/abbeynox/yao-earth-vue/issues"
   },
-  "homepage": "https://github.com/kaiseryao/yao-earth-vue#readme",
+  "homepage": "https://github.com/abbeynox/yao-earth-vue#readme",
   "browserslist": {
     "production": [
       ">0.2%",

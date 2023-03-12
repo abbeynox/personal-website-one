@@ -29,7 +29,7 @@ const data = [
   {
     path: '/github',
     component: () => import('../views/RedirectPage.vue'),
-    redirectUri: 'http://github.com/kaiseryao',
+    redirectUri: 'http://github.com/abbeynox',
     alias: ['/gh', '/git'],
   },
   {

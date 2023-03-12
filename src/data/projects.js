@@ -13,7 +13,7 @@ const data = [
     name: "Zork of The Wild",
     description: "Console Game with Java, based on 'The Legends of Zelda'-Series from Nintendo.",
     status: "NEW",
-    url: "https://github.com/kaiseryao/ZorkOfTheWild",
+    url: "https://github.com/abbeynox/ZorkOfTheWild",
     icon: "fas fa-dice",
   },
   {
@@ -34,7 +34,7 @@ const data = [
     name: "TrainQuiz",
     description:
       "Random Questions about trains, based on Java Spring Boot API and MongoDB.",
-    url: "https://github.com/kaiseryao/trainquiz-backend",
+    url: "https://github.com/abbeynox/trainquiz-backend",
     icon: "fas fa-train",
   },
   {
@@ -43,7 +43,7 @@ const data = [
     description:
       "This website allows you to generate fictitious airline tickets with PDF417 codes.",
     icon: "fas fa-plane",
-    url: "https://github.com/kaiseryao/pdf417-generator"
+    url: "https://github.com/abbeynox/pdf417-generator"
   },
   {
     id: uniqueId("project"),

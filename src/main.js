@@ -25,6 +25,8 @@ Vue.use(VuePageTransition)
 Vue.use(VueCarousel);
 Vue.use(VueScrollReveal);
 
+Vue.prototype.$domain = window.location.hostname;
+
 new Vue({
   router,
   render: h => h(App),

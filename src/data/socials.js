@@ -4,19 +4,19 @@ const data = [
   {
     id: uniqueId("social-"),
     name: "Mastodon",
-    url: "https://yao.earth/mastodon",
+    url: "/mastodon",
     icon: "fab fa-mastodon",
   },
   {
     id: uniqueId("social-"),
     name: "Github",
-    url: "https://yao.earth/github",
+    url: "/github",
     icon: "fab fa-github",
   },
   {
     id: uniqueId("social-"),
     name: "Linkedin",
-    url: "https://yao.earth/linkedin",
+    url: "/linkedin",
     icon: "fab fa-linkedin",
   },
   {
