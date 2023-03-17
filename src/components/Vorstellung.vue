@@ -14,10 +14,10 @@
         "
       >
         <p class="text-lg">
-          Hello! I'm Yao and {{ age }} years old. Where should I begin.. I was excited about computers
+          Hello! I'm Abbey and {{ age }} years old. Where should I begin.. I was excited about computers
           and the Internet very early. But I really started programming only in
           April 2020, exactly at the time when the exactly at the time when the
-          Corona pandemic started. Besides programming I am interested in net
+          Corona pandemic started. Besides programming I am interested in queer and net
           activism - this includes especially privacy and security on the
           internet. On this website I have concisely summarized some things
           about me. I would like to share my experiences with you and wish you a

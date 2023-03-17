@@ -22,7 +22,7 @@ const data = [
   {
     id: uniqueId("social-"),
     name: "Email",
-    url: "mailto:yao@ywk.ch",
+    url: "mailto:me@abbeynox.com",
     icon: "fas fa-envelope",
     isEmail: true
   },

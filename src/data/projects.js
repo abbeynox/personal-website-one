@@ -50,7 +50,7 @@ const data = [
     name: "More Projects",
     description:
       "More projects are listed on my Github account.",
-    url: "https://yao.earth/github"
+    url: "/github"
   },
 ];
 export default data;

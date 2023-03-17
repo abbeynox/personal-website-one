@@ -1,4 +1,4 @@
-# Yao.Earth Portfolio
+# My Personal Portfolio
 
 ## Project setup
 ```

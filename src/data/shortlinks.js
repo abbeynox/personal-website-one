@@ -4,7 +4,7 @@ const data = [
     {
     id: uniqueId("shortlink-"),
     name: "BBW Stundenplan",
-    url: "https://yao.earth/stundenplan",
+    url: "/stundenplan",
     description: "Exklusiver Stundenplan für die Klassen in meiner Berufsschule.",
     todayImportant: true
     },  
@@ -19,7 +19,7 @@ const data = [
   {
     id: uniqueId("shortlink-"),
     name: "Über mich",
-    url: "https://yao.earth/about",
+    url: "/about",
     description: "Ich möchte mich gerne vorstellen, damit ihr mich besser kennenlernt. Erfahre hier mehr über die Technologien, welche ich brauche und meinen Lieblingssongs.",
     todayImportant: true
     
@@ -27,16 +27,8 @@ const data = [
   {
     id: uniqueId("shortlink-"),
     name: "Meine Projekte",
-    url: "https://yao.earth/projects",
+    url: "/projects",
     description: "Egal ob auf der Arbeit oder in meiner Freizeit. Ein Projekt habe ich immer am laufen. Hier eine Liste an Projekten, die ich selbst gestartet habe.",
-    todayImportant: true,
-    
-  }, 
-  {
-    id: uniqueId("shortlink-"),
-    name: "CV Download",
-    url: "https://yao.earth/cv",
-    description: "Lade hier direkt meinen Lebenslauf herunter.",
     todayImportant: true,
     
   }, 

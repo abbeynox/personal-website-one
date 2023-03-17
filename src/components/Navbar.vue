@@ -24,10 +24,10 @@
         >
           <img
             class="w-10 h-10 text-white p-0.5 bg-purple-500 rounded-full"
-            src="https://avatars.githubusercontent.com/u/74461477"
+            src="../assets/abbey-large.png"
           /> 
           
-          <span v-if="$domain === 'abbeynox.com'" class="ml-3 text-xl">Abbey Nox</span>
+          <span v-if="$domain === 'abbeynox.com'" class="ml-3 text-xl">abbeynox</span>
           <span v-else class="ml-3 text-xl">Yao.Earth</span>
         </a>
 
