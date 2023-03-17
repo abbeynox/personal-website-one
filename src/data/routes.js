@@ -16,10 +16,14 @@ const data = [
     component: () => import('../views/AboutPage.vue')
   },
   {
-    path: '/education/stundenplan',
+    path: '/stundenplan',
     name: 'stundenplan',
-    component: () => import('../views/Stundenplan.vue'),
-    alias: '/stundenplan',
+    component: () => import('../views/Stundenplan.vue')
+  },
+  {
+    path: '/music',
+    name: 'music',
+    component: () => import('../views/MusicPage.vue')
   },
   {
     path: '/links',

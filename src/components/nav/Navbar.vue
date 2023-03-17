@@ -24,7 +24,7 @@
         >
           <img
             class="w-10 h-10 text-white p-0.5 bg-purple-500 rounded-full"
-            src="https://avatars.githubusercontent.com/u/74461477"
+            src="../../assets/abbey-large.png"
           /> 
           
           <span class="ml-3 text-xl">Yao.Earth</span>
@@ -44,9 +44,6 @@
             >projects</router-link
           >
           <NavDropdown class="mr-5"></NavDropdown>
-          <router-link class="mr-5 hover:text-white" to="links"
-            >links</router-link
-          >
         </nav>
       </div>
     </header>
@@ -55,7 +52,7 @@
 
 
 <script>
-import NavDropdown from './NavDropdown.vue';
+import NavDropdown from './NavDropdown.vue';  
 export default {
   name: "TopNav",
   components: {
