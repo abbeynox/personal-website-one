@@ -12,7 +12,7 @@ const data = [
   {
     id: uniqueId("link-"),
     name: "Threema ID",
-    url: "https://yao.earth/threema",
+    url: "/threema",
     icon: "fas fa-user-shield",
     fromColor: "gray-700",
     toColor: "gray-800"

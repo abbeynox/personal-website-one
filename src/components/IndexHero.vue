@@ -11,7 +11,7 @@
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://docs.yaokaiser.dev"
+            href="https://docs.abbeynox.com"
             class="
               inline-flex
               items-center
