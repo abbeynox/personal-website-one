@@ -48,9 +48,9 @@
 
 <script>
 
-import Header from './Header';
+import Header from './Header.vue';
 import shortlinks from '../data/shortlinks.js';
-import ShortLinkCard from './cards/ShortLinkCard'
+import ShortLinkCard from './cards/ShortLinkCard.vue'
 
 export default {
 

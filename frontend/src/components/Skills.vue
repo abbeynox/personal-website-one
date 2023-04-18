@@ -25,9 +25,9 @@
 </template>
 
 <script>
-import SkillCard from "./cards/SkillCard";
+import SkillCard from "./cards/SkillCard.vue";
 import skills from "../data/skills.js";
-import Header from "./Header";
+import Header from "./Header.vue";
 
 export default {
   name: "Skills",

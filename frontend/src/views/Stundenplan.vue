@@ -65,11 +65,11 @@ dayjs.extend(timezone)
 let now = dayjs().tz("Europe/Berlin")
 
 
-import Header from "../components/Header";
+import Header from "../components/Header.vue";
 import subjects1 from "../data/subjects.js";
 import subjects2 from "../data/subjects2.js";
-import MenuButton from "../components/lib/MenuButton";
-import TableCard from "../components/cards/TableCard";
+import MenuButton from "../components/lib/MenuButton.vue";
+import TableCard from "../components/cards/TableCard.vue";
 var subjects = null;
 export default {
   name: "Timetable",

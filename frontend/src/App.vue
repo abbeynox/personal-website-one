@@ -26,9 +26,9 @@
 </template>
 
 <script type="text/javascript">
-import TopNav from "./components/Navbar";
-import Footer from "./components/Footer";
-import MobileMenu from "./components/cards/MobileMenu";
+import TopNav from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
+import MobileMenu from "./components/cards/MobileMenu.vue";
 import RainbowBar from "./components/lib/pride/RainbowBar.vue";
 
 export default {

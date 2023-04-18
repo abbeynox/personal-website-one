@@ -9,9 +9,9 @@
 </template>
 
 <script>
-    import Header from '../components/Header';
-    import ProjektForm from '../components/admin/ProjektForm';
-    import SkillForm from '../components/admin/SkillForm';
+    import Header from '../components/Header.vue';
+    import ProjektForm from '../components/admin/ProjektForm.vue';
+    import SkillForm from '../components/admin/SkillForm.vue';
     export default {
         name: 'AdminPage', 
         title: 'Admin',

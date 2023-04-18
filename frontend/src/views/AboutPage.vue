@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import Header from "../components/Header"
-import Vorstellung from "../components/Vorstellung"
-import Skills from "../components/Skills"
-import Tunes from "../components/Tunes"
+import Header from "../components/Header.vue"
+import Vorstellung from "../components/Vorstellung.vue"
+import Skills from "../components/Skills.vue"
+import Tunes from "../components/Tunes.vue"
 export default {
     name: 'About',
     title: 'About me',

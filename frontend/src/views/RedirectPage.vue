@@ -7,8 +7,8 @@
 
 
 <script>
-import Header from "../components/Header"
-import LoadingBar from "../components/lib/LoadingBar"
+import Header from "../components/Header.vue"
+import LoadingBar from "../components/lib/LoadingBar.vue"
 import routes from "../data/routes.js"
 
 

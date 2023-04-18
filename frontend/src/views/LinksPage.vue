@@ -11,11 +11,7 @@
           {{ name }}
         </h1>
         <p class="text-xl text-purple-500 font-semibold mb-4">
-          <a v-if="$domain === 'abbeynox.com'"
-            class="inline-block border-b-2 border-purple-500 hover:text-gray-300 hover:border-opacity-0 transition-all duration-500" href="/pronouns" target="_blank"
-            >he/they</a
-          >
-          <span v-else class="inline-block border-b-2 border-purple-500">he/him</span>
+            <span class="inline-block border-b-2 border-purple-500">he/him</span>
         </p>
       </div>
     </div>
@@ -36,21 +32,21 @@
 </template>
 
 <script type="text/javascript">
-import LinkCard from "../components/cards/LinkCard";
-import links from "../data/links.js";
-import Notification from "../components/lib/Notification";
+import LinkCard from "../components/cards/LinkCard.vue";
+import Notification from "../components/lib/Notification.vue";
 
 export default {
   name: "LinksPage",
   title: "Links",
   data: function () {
     return {
-      links: links,
+      links: [],
+      name: "",
     };
   },
   created() {
     this.getInfo();
-    this.name = name;
+    this.fetchLinks();
   },
   components: {
     LinkCard,
@@ -59,11 +55,23 @@ export default {
   methods: {
     getInfo() {
       if (this.$domain == "abbeynox.com") {
-        name = "Abbey Nox";
+        this.name = "Abbey Nox";
       } else {
-        name = "Yao Kaiser";
+        this.name = "Yao Kaiser";
       }
       return this.name;
+    },
+    async fetchLinks() {
+      try {
+        const response = await fetch("/api/links");
+        if (!response.ok) {
+          throw new Error("Failed to fetch links");
+        }
+        const data = await response.json();
+        this.links = data;
+      } catch (error) {
+        console.error(error);
+      }
     },
   },
 };

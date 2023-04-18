@@ -13,7 +13,7 @@
 
 
 <script type="text/javascript">
-import Header from '../components/Header';
+import Header from '../components/Header.vue';
 import ProjectCard from '@/components/cards/ProjectCard';
 import projects from '../data/projects.js'
 

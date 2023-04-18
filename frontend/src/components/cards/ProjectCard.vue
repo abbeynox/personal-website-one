@@ -17,8 +17,8 @@
 </template>
 
 <script>
-import BaseIcon from '../lib/BaseIcon';
-import LinkIcon from '../lib/LinkIcon';
+import BaseIcon from '../lib/BaseIcon.vue';
+import LinkIcon from '../lib/LinkIcon.vue';
 export default {
     props: {
         name: {

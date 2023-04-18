@@ -9,9 +9,9 @@
 
 <script type="text/javascript">
 
-    import IndexHero from '../components/IndexHero';
-    import SocialMedia from '../components/SocialMedia';
-    import Skills from '../components/Skills';
+    import IndexHero from '../components/IndexHero.vue';
+    import SocialMedia from '../components/SocialMedia.vue';
+    import Skills from '../components/Skills.vue';
     
 
     export default {

@@ -67,7 +67,7 @@
 </template>
 
 <script>
-import Header from "./Header";
+import Header from "./Header.vue";
 import axios from "axios";
 import TuneCard from "./cards/TuneCard.vue";
 

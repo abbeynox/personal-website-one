@@ -138,7 +138,7 @@
 </template>
 
 <script>
-import Header from "../components/Header";
+import Header from "./Header.vue";
 import day from "dayjs";
 
 const birthday = day("6 June 2004");

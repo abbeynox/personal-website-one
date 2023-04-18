@@ -7,8 +7,8 @@
 
 
 <script>
-import Header from "../components/Header"
-import LoadingBar from "../components/lib/LoadingBar"
+import Header from "../components/Header.vue"
+import LoadingBar from "../components/lib/LoadingBar.vue"
 
 export default {
     name: 'ClosedPage',
