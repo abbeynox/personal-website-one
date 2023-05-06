@@ -27,8 +27,7 @@
             src="../assets/abbey-large.png"
           /> 
           
-          <span v-if="$domain === 'abbeynox.com'" class="ml-3 text-xl">abbeynox</span>
-          <span v-else class="ml-3 text-xl">Yao.Earth</span>
+          <span class="ml-3 text-xl">abbeynox</span>
         </a>
 
         <nav

@@ -3,7 +3,7 @@
     <div class="flex flex-col w-full text-center">
       <Header
         title="Hey,"
-        :description="'I\'m ' + name + '.'"
+        :description="'I\'m Abbey.'"
         :text="'I am a ' + age + ' year old software developer apprentice from Switzerland. Currently I focus on backend development with Java Spring Boot or Python Flask. On this website you can learn more about my skills, projects and free time.'"
       ></Header>
       <div class="container px-5 pb-1 mx-auto -mt-10">
@@ -142,7 +142,6 @@ import Header from "../components/Header";
 import day from "dayjs";
 
 const birthday = day("6 June 2004");
-name = "Abbey";
 const age = Math.abs(
   new Date(Date.now() - birthday.toDate().getTime()).getUTCFullYear() - 1970
 );
@@ -158,20 +157,8 @@ export default {
     };
   },
   created() {
-    this.getName();
     setTimeout(() => (this.redirectInfo = false), 2000);
     this.age = age;
-    this.name = name;
-  },
-  methods: {
-    getName() {
-      if (this.$domain == "abbeynox.com") {
-        name = "Abbey";
-      } else {
-        name = "Yao";
-      }
-      return this.name;
-    },
   },
 };
 </script>

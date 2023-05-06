@@ -11,11 +11,7 @@
           {{ name }}
         </h1>
         <p class="text-xl text-purple-500 font-semibold mb-4">
-          <a v-if="$domain === 'abbeynox.com'"
-            class="inline-block border-b-2 border-purple-500 hover:text-gray-300 hover:border-opacity-0 transition-all duration-500" href="/pronouns" target="_blank"
-            >he/they</a
-          >
-          <span v-else class="inline-block border-b-2 border-purple-500">he/him</span>
+          <span class="inline-block border-b-2 border-purple-500">he/they</span>
         </p>
       </div>
     </div>
