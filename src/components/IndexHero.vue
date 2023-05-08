@@ -4,7 +4,7 @@
       <Header
         title="Hey,"
         :description="'I\'m Abbey.'"
-        :text="'I am a ' + age + ' year old software developer apprentice from Switzerland. Currently I focus on backend development with Java Spring Boot or Python Flask. On this website you can learn more about my skills, projects and free time.'"
+        :text="'and I am a ' + age + ' year old individual, who is still searching for their dreams. When I\'m not busy figuring out my identity, I love to indulge in my passions for music, horror, and amusement parks. Music is a huge part of my life, and I\'m particularly drawn to post-hardcore, metal, and punk genres. You\'ll often find me with headphones on, listening to my favorite bands and getting lost in the music. As a horror enthusiast, I enjoy everything from spine-chilling movies to creepy podcasts. I love to explore the macabre and delve into the psychological aspects of fear. Thank you for taking the time to get to know me a little better. I hope you enjoy exploring my website and learning more about my passions and projects. More content is on the way, so be sure to check back soon!'"
       ></Header>
       <div class="container px-5 pb-1 mx-auto -mt-10">
         <div data-fade="6" class="flex flex-wrap gap-4 gap-y-2">
@@ -51,7 +51,7 @@
               <path
                 d="M431.15 477.75A64.11 64.11 0 01384 416V44a12 12 0 00-12-12H44a12 12 0 00-12 12v380a56 56 0 0056 56h342.85a1.14 1.14 0 00.3-2.25zM96 208v-96h96v96zm224 192H96v-32h224zm0-64H96v-32h224zm0-64H96v-32h224zm0-64h-96v-32h96zm0-64h-96v-32h96z"
               ></path></svg
-            ><span>Development Docs</span></a
+            ><span>docs</span></a
           ><a
             target="_blank"
             rel="me noopener noreferrer"

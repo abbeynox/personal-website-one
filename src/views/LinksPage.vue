@@ -3,15 +3,17 @@
     <div class="container content-center px-5 pt-10 pb-10 mx-auto">
       <div class="flex flex-col content-center w-full text-center md:m-1">
         <img
-          class="w-40 h-40 p-1 m-5 mx-auto text-white bg-purple-500 rounded-full"
+          class="w-40 h-40 p-1 m-5 mx-auto text-white bg-red-600 rounded-full"
           alt="hero"
           src="https://avatars.githubusercontent.com/u/74461477"
         /> 
         <h1 class="mb-4 text-6xl font-bold text-white sm:text-6xl title-font">
-          {{ name }}
+          @abbeynox
         </h1>
-        <p class="text-xl text-purple-500 font-semibold mb-4">
-          <span class="inline-block border-b-2 border-purple-500">he/they</span>
+        <p class="text-xl text-white font-semibold mb-4">
+          <a href="https://www.youtube.com/watch?v=aGPcjzBbHuI" target="_blank">
+              <span class="inline-block border-b-2 border-red-600">Make racists afraid again!</span>
+          </a>
         </p>
       </div>
     </div>
@@ -44,23 +46,9 @@ export default {
       links: links,
     };
   },
-  created() {
-    this.getInfo();
-    this.name = name;
-  },
   components: {
     LinkCard,
     Notification,
-  },
-  methods: {
-    getInfo() {
-      if (this.$domain == "abbeynox.com") {
-        name = "Abbey Nox";
-      } else {
-        name = "Yao Kaiser";
-      }
-      return this.name;
-    },
-  },
+  }
 };
 </script>
