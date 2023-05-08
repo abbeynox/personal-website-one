@@ -16,7 +16,7 @@
     "autoprefixer": "^9.8.6",
     "axios": "^0.22.0",
     "boxicons": "^2.0.9",
-    "core-js": "^3.6.5",
+    "core-js": "^3.29.1",
     "dayjs": "^1.10.7",
     "lodash.uniqueid": "^4.0.1",
     "postcss": "^7.0.36",
