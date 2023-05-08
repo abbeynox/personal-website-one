@@ -6,17 +6,8 @@ Vue.use(VueRouter)
 
 import VuePageTitle from 'vue-page-title'
 Vue.use(VuePageTitle, {
-  suffix: getSuffixName()
+  suffix: " 🖤 Abbey Nox"
 })
-
-function getSuffixName() {
-  if (window.location.hostname === "abbeynox.com") {
-    return " 🖤 Abbey Nox"
-  }
-  else {
-    return " 🌎 yao.earth"
-  }
-}
 
 const router = new VueRouter({
   mode: 'history',

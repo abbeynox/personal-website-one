@@ -23,12 +23,11 @@
           "
         >
           <img
-            class="w-10 h-10 text-white p-0.5 bg-purple-500 rounded-full"
+            class="w-10 h-10 text-white p-0.5 bg-red-600 rounded-full"
             src="../assets/abbey-large.png"
           /> 
           
-          <span v-if="$domain === 'abbeynox.com'" class="ml-3 text-xl">abbeynox</span>
-          <span v-else class="ml-3 text-xl">Yao.Earth</span>
+          <span class="ml-3 text-xl">abbeynox</span>
         </a>
 
         <nav
@@ -40,12 +39,10 @@
             md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700
           "
         >
-          <router-link class="mr-5 hover:text-white" to="/">home</router-link>
-          <router-link class="mr-5 hover:text-white" to="projects"
-            >projects</router-link
+          <router-link class="mr-5 hover:text-red-600" to="/">home</router-link>
+          <router-link class="mr-5 hover:text-red-600" to="projects">projects</router-link
           >
-          <router-link class="mr-5 hover:text-white" to="about"
-            >about me</router-link
+          <router-link class="mr-5 hover:text-red-600" to="links">links</router-link
           >
         </nav>
       </div>

@@ -15,16 +15,22 @@ const data = [
   },
   {
     id: uniqueId("social-"),
-    name: "Linkedin",
-    url: "/linkedin",
-    icon: "fab fa-linkedin",
-  },
-  {
-    id: uniqueId("social-"),
     name: "Email",
     url: "mailto:me@abbeynox.com",
     icon: "fas fa-envelope",
     isEmail: true
+  },
+  {
+    id: uniqueId("social-"),
+    name: "Twitter",
+    url: "/twitter",
+    icon: "fab fa-twitter",
+  },
+  {
+    id: uniqueId("social-"),
+    name: "Instagram",
+    url: "/instagram",
+    icon: "fab fa-instagram",
   },
   
 ];
